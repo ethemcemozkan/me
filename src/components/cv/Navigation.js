@@ -2,6 +2,8 @@ import React from 'react';
 
 import CVStyles from './cv.module.css';
 import mergeClassNames from "classnames";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
 export default function Navigation({
                                      sections,
@@ -19,6 +21,10 @@ export default function Navigation({
               </a>
             );
           })}
+          <a className={mergeClassNames(CVStyles.divTableCell, CVStyles.levelRight)}
+             href="./EthemCemOzkanCV.pdf" download>
+            <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
+          </a>
         </div>
       </div>
     </div>
