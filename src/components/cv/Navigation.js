@@ -1,32 +1,50 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 
 import CVStyles from './cv.module.css';
 import Styles from './styles.module.css';
 import mergeClassNames from "classnames";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFilePdf} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
 export default function Navigation({
     sections,
   }) {
+  const [isActive, setIsActive] = useState(false);
+  //add the active class
+  const toggleHamburger = () => {
+    setIsActive(!isActive);
+  };
+
+
+  //clean up function to remove the active class
+  const removeHamburger = () => {
+    setIsActive(false)
+  }
 
   return (
     <div className={mergeClassNames(Styles.divTable)}>
       <div className={mergeClassNames(Styles.divTableBody, Styles.stickyNavBar)}>
-        <div className={mergeClassNames(CVStyles.container, Styles.divTableRow)}>
+        <div
+          className={`${mergeClassNames(CVStyles.container, Styles.divTableRow)}`}>
           {sections.map((sectionDetails, i) => {
             return (
-              <a key={i} className={mergeClassNames(Styles.divTableCell)}
+              <a key={i} className={`${isActive ? Styles.divTableRow: Styles.divTableCell}`}
                  href={'#' + sectionDetails.title}
+                 onClick={removeHamburger}
                  role='button'>
                 {sectionDetails.title}
               </a>
             );
           })}
-          <a className={mergeClassNames(CVStyles.divTableCell, CVStyles.levelRight)}
-             href="./EthemCemOzkanCV.pdf" download>
-            <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
-          </a>
+          <div className={Styles.rightNavBarSection}>
+            <a className={mergeClassNames(CVStyles.levelRight, Styles.pdfDownload)}
+               href="./EthemCemOzkanCV.pdf" download onClick={removeHamburger}>
+              <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
+            </a>
+            <a onClick={toggleHamburger} className={mergeClassNames(Styles.hamburgerMenu, CVStyles.levelRight)}>
+              <FontAwesomeIcon icon={faBars}/>
+            </a>
+        </div>
         </div>
       </div>
     </div>
