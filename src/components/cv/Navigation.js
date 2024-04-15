@@ -41,7 +41,9 @@ export default function Navigation({
                href="./EthemCemOzkanCV.pdf" download onClick={removeHamburger}>
               <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
             </a>
-            <a onClick={toggleHamburger} className={mergeClassNames(Styles.hamburgerMenu, CVStyles.levelRight)}>
+            <a onClick={toggleHamburger}
+               href="javascript:void(0);"
+               className={mergeClassNames(Styles.hamburgerMenu, CVStyles.levelRight)}>
               <FontAwesomeIcon icon={faBars}/>
             </a>
         </div>
