@@ -30,10 +30,10 @@ function Skills({title, icon, items, ...props}) {
             level: itemLevel,
           } = item;
           return (
-            <div className={mergeClassNames(CVStyles.content, CVStyles.skillTableRow, Styles.avoidBreakingOnPrint)}
+            <div className={mergeClassNames(CVStyles.content, Styles.skillTableRow, Styles.avoidBreakingOnPrint)}
                  key={i}>
               <div
-                className={mergeClassNames(CVStyles.level, CVStyles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
+                className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
                 key={i + 'skillRow'}>
                 <h6 className={mergeClassNames(CVStyles['is-marginless'], CVStyles['level-left'])}
                     key={i + 'skillTitle'}>

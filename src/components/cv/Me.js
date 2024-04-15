@@ -26,7 +26,7 @@ export function ContactList({items = []}) {
         const icon = iconMap[item.type] || faExclamation;
         return (
           <div className={Styles.contactListItem} key={i}>
-            <FontAwesomeIcon icon={icon}/>
+            <FontAwesomeIcon icon={icon} className={Styles.contactListIcon}/>
             <a className={Styles.contactListItemContent} href={formatAnchorValue(item.type, item.value)} target="_blank"
                rel="noreferrer">
               {item.value}
