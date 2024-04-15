@@ -39,12 +39,12 @@ export default function Navigation({
           <div className={Styles.rightNavBarSection}>
             <a className={mergeClassNames(CVStyles.levelRight, Styles.pdfDownload)}
                href="./EthemCemOzkanCV.pdf" onClick={removeHamburger} download>
-              <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faFilePdf} size={"xl"}></FontAwesomeIcon>
             </a>
             <a onClick={toggleHamburger}
                href
                className={mergeClassNames(Styles.hamburgerMenu, CVStyles.levelRight)}>
-              <FontAwesomeIcon icon={faBars}/>
+              <FontAwesomeIcon icon={faBars} size={"xl"}/>
             </a>
         </div>
         </div>
