@@ -12,12 +12,12 @@ function Skills({
                   level
                 }) {
   return (
-    <div className={mergeClassNames(CVStyles.skillTableCell, CVStyles['is-marginless'], CVStyles['level-right'])}>
-      <div className={mergeClassNames(CVStyles.content, CVStyles.skillTableRow, Styles.avoidBreakingOnPrint)}>
+    <div className={mergeClassNames(Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['level-right'])}>
+      <div className={mergeClassNames(CVStyles.content, Styles.skillTableRow, Styles.avoidBreakingOnPrint)}>
         {Array(level).fill(0).map((_, i) => {
           return (
             <div
-              className={mergeClassNames(CVStyles.level, CVStyles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
+              className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
               key={i + 'skillStar'}>
               <FontAwesomeIcon icon={faStarSolid} style={{color: '#ffb703'}}/>
             </div>
@@ -26,7 +26,7 @@ function Skills({
         {Array(5 - level).fill(0).map((_, i) => {
           return (
             <div
-              className={mergeClassNames(CVStyles.level, CVStyles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
+              className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
               key={i + 'skillStar'}>
               <FontAwesomeIcon icon={faStarRegular} style={{color: '#ffb703'}}/>
             </div>

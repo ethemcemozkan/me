@@ -12181,33 +12181,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     }
 }
 
-@media print {
-    .noPrint, .noPrint * {
-        display: none !important;
-    }
-}
-
-.stickyNavBar {
-    position: fixed;
-    overflow: hidden;
-    background-color: #1AA7EC;
-    top: 0px;
-    width: 100%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    z-index: 100;
-}
-
-.stickyNavBar a {
-    color: white;
-}
-
-@media screen and (max-width: 650px) {
-    .stickyNavBar {
-        display: none !important;
-    }
-}
-
 .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
     align-items: center;
     display: flex;
@@ -12313,43 +12286,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
     background-color: #fafafa;
     padding: 3rem 1.5rem 6rem;
-}
-
-divTable {
-    display: table;
-    margin: 0 auto
-}
-
-.divTableRow {
-    display: table;
-    width: 100%;
-    margin: 0 auto
-}
-
-.divTableCell {
-    border: 0px;
-    display: table-cell;
-    padding: 3px 30px;
-    text-align: center;
-}
-
-.divTableBody {
-    display: table-row-group;
-}
-
-.skillTableRow {
-    display: table-row;
-    width: 100%;
-}
-
-.skillTableCell {
-    border: 0px;
-    display: table-cell;
-    padding: 3px 30px;
-}
-
-.skillTableBody {
-    display: table-row-group;
 }
 
 /*# sourceMappingURL=cv.css.map */
