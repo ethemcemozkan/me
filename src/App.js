@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
+import ReactGA from "react-ga4";
 
 import CemCV from "./components/cv";
+
+ReactGA.initialize("G-EZCEW7M2Y8");
 
 class App extends Component {
   render() {
