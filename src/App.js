@@ -29,7 +29,7 @@ class App extends Component {
               title: 'Introduction',
               icon: 'usertie',
               content: `My name is Ethem Cem Özkan. With over a decade of experience in the software development industry, 
-                            my career started as a Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
+                            my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
                             taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
                             empowered me to orchestrate seamless project workflows while upholding CMMI processes.
                             Moreover, I have been an integral part of many DevOps projects, including containerizing legacy applications, 
@@ -181,6 +181,7 @@ class App extends Component {
                 {
                   title: 'Computer Engineering (Phd)',
                   authority: 'Hacettepe University',
+                  description: 'I completed all my courses for my Ph.D. However, I had to discontinue my studies due to my relocation to the Netherlands.',
                   authorityWebSite: 'https://www.hacettepe.edu.tr/english',
                   rightSide: '2015 - discontinued'
                 },
