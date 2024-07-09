@@ -61,7 +61,7 @@ class App extends Component {
                 {skill: 'Jenkins', level: 4},
                 {skill: 'EKS', level: 3},
                 {skill: 'Kubernetes', level: 3},
-                {skill: 'Postgres', level: 3},
+                {skill: 'PostgreSQL', level: 3},
                 {skill: 'RabbitMQ', level: 3},
                 {skill: 'Python', level: 3},
                 {skill: 'Java', level: 3},
@@ -117,7 +117,7 @@ class App extends Component {
                     'Fargate',
                     'RDS',
                     'ECR',
-                    'Postgres',
+                    'PostgreSQL',
                     'Mysql',
                     'Cloudwatch',
                     'Lambda',
@@ -176,6 +176,7 @@ class App extends Component {
                     'Git',
                     'Powershell',
                     'EJB',
+                    'Spring',
                     'JSF'
                   ]
                 }
