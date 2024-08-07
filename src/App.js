@@ -98,8 +98,8 @@ class App extends Component {
                     'provided by AWS to modernize their environments, ensuring scalability, reliability, and efficiency. ' +
                     'In collaboration with the development teams, I designed and implemented tailored solutions to simplify ' +
                     'their interaction with AWS, streamlining the development process and mitigating the complexities ' +
-                    'associated with cloud infrastructure. Notable achievements include database RabbitMQ cluster, ' +
-                    'SSO migration and access request system resulting in seamless developer experience. ' +
+                    'associated with cloud infrastructure. Notable achievements include database, RabbitMQ cluster, ' +
+                    'and SSO cloud migrations along with the access request system resulting in seamless developer experience. ' +
                     'These initiatives not only streamlined development processes but also contributed to ' +
                     'significant improvements in system performance, reliability, and security, ultimately driving business ' +
                     'success.',
