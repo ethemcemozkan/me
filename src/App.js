@@ -29,10 +29,10 @@ class App extends Component {
               title: 'Introduction',
               icon: 'usertie',
               breakAfter: true,
-              content: `My name is Ethem Cem Özkan. With over a decade of experience in the software development industry, 
+              content: `With over a decade of experience in the software development industry, 
                             my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
                             taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
-                            empowered me to orchestrate seamless project workflows while upholding CMMI processes.
+                            empowering me to orchestrate seamless project workflows while upholding CMMI processes.
                             Moreover, I have been an integral part of many DevOps projects, including containerizing legacy applications, 
                             orchestrating public cloud migrations, and architecting and implementing cloud-based solutions. 
                             These experiences have been instrumental in shaping my career and 
@@ -45,7 +45,7 @@ class App extends Component {
                             <br/>
                             <br/>
                             In my free time, I find joy in tinkering with my smart home setup and exploring culinary delights in the kitchen. 
-                            I've been happily married to İdil, who has been my companion throughout our relocation to the Netherlands.`,
+                            I am happily married to İdil, who has been my companion throughout our relocation to the Netherlands.`,
             },
             {
               type: 'skills',
@@ -56,6 +56,7 @@ class App extends Component {
                 {skill: 'EC2', level: 5},
                 {skill: 'IAM', level: 5},
                 {skill: 'RDS', level: 5},
+                {skill: 'Aurora', level: 5},
                 {skill: 'Docker', level: 5},
                 {skill: 'Ansible', level: 5},
                 {skill: 'Cloudformation', level: 5},
@@ -67,11 +68,13 @@ class App extends Component {
                 {skill: 'Python', level: 3},
                 {skill: 'Java', level: 3},
                 {skill: 'JavaScript', level: 2},
-                {skill: 'Mysql', level: 2},
+                {skill: 'MySQL', level: 2},
                 {skill: 'Powershell', level: 2},
+                {skill: 'AWS CDK', level: 2},
                 {skill: 'Bash', level: 2},
                 {skill: 'AWS', level: 5},
                 {skill: 'Azure', level: 1},
+                {skill: 'Teraform', level: 1},
               ]
             },
             {
@@ -121,7 +124,7 @@ class App extends Component {
                     'RDS',
                     'ECR',
                     'PostgreSQL',
-                    'Mysql',
+                    'MySQL',
                     'Cloudwatch',
                     'Lambda',
                     'Cloudformation',
