@@ -40,7 +40,7 @@ class App extends Component {
                             <br/>
                             <br/>
                             On a personal note, I am informal, cheerful, hands-on, enthusiastic and eager to learn. 
-                            I prefer working in an environment that focused on generating results. 
+                            I prefer working in an environment that is focused on generating results. 
                             I enjoy working in a team with clear communication.
                             <br/>
                             <br/>
@@ -74,7 +74,7 @@ class App extends Component {
                 {skill: 'Bash', level: 2},
                 {skill: 'AWS', level: 5},
                 {skill: 'Azure', level: 1},
-                {skill: 'Teraform', level: 1},
+                {skill: 'Terraform', level: 1},
               ]
             },
             {
@@ -104,8 +104,8 @@ class App extends Component {
                     'provided by AWS to modernize their environments, ensuring scalability, reliability, and efficiency. ' +
                     'In collaboration with the development teams, I designed and implemented tailored solutions to simplify ' +
                     'their interaction with AWS, streamlining the development process and mitigating the complexities ' +
-                    'associated with cloud infrastructure. Notable achievements include database, RabbitMQ cluster, ' +
-                    'and SSO cloud migrations along with the access request system resulting in seamless developer experience. ' +
+                    'associated with cloud infrastructure. Notable achievements include the migration of workload services, databases, RabbitMQ clusters, ' +
+                    'and SSO systems to the cloud, as well as implementing an access request system resulting in seamless developer experience. ' +
                     'These initiatives not only streamlined development processes but also contributed to ' +
                     'significant improvements in system performance, reliability, and security, ultimately driving business ' +
                     'success.',
@@ -163,7 +163,7 @@ class App extends Component {
                   company: 'TUBITAK',
                   description: 'I started on a journey of continuous learning and growth that shaped my expertise in CMMI processes and laid the foundations for my proficiency in AWS. As my tenure progressed, I assumed pivotal roles, notably being entrusted with the management of crucial project infrastructures and development/production environments.\n' +
                     '\n' +
-                    'My responsibilities include managing configuration across all development environments, orchestrating CI pipelines, and facilitating the seamless deployment of releases while automating developer environment setups. Adherence to CMMI level 5 Configuration and Development processes was critical in all my projects. Notably, I had the privilege of working on Turkey-wide high-volume projects, such as the track and trace system for all medical devices, where my contributions played a pivotal role in ensuring project success.\n' +
+                    'My responsibilities included managing configuration across all development environments, orchestrating CI pipelines, and facilitating the seamless deployment of releases while automating developer environment setups. Adherence to CMMI level 5 Configuration and Development processes was critical in all my projects. Notably, I had the privilege of working on Turkey-wide high-volume projects, such as the track and trace system for all medical devices, where my contributions played a pivotal role in ensuring project success.\n' +
                     '\n' +
                     'In addition to my configuration management duties, early in my career, I contributed to simplifying development workflows by developing Java-based libraries. ',
                   companyWebSite: 'https://tubitak.gov.tr',
