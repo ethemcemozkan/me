@@ -4503,6 +4503,22 @@ fieldset[disabled] .select select:hover {
     margin-bottom: 0;
 }
 
+@media print {
+    .tag:not(body).is-info {
+        background-color: grey;
+        color: #fff;
+    }
+
+    .hero.is-primary {
+        background-color: grey !important; 
+        color: #fff;
+    }
+
+    .has-text-white {
+        color: blue !important;
+    }
+}
+
 @media screen and (min-width: 769px), print {
     .field-body {
         display: flex;
@@ -11692,7 +11708,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-primary {
-    background-color: #067FD0;
+    background-color: #067FD0; 
     color: #fff;
 }
 

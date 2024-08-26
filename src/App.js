@@ -14,7 +14,7 @@ class App extends Component {
           title: 'Senior DevOps Engineer',
           image: './ethemcemozkan.jpg',
           contacts: [
-            {type: 'email', value: 'ethemcem.ozkan@gmail.com'},
+            {type: 'email', value: 'me@ethemcemozkan.com'},
             {type: 'location', value: 'Nijkerk, Netherlands'},
             {type: 'website', value: 'ethemcemozkan.com'},
             {type: 'linkedin', value: 'linkedin.com/in/ethemcemozkan'},

@@ -19,7 +19,7 @@ function Skills({
             <div
               className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
               key={i + 'skillStar'}>
-              <FontAwesomeIcon icon={faStarSolid} style={{color: '#ffb703'}}/>
+              <FontAwesomeIcon icon={faStarSolid} className={mergeClassNames(Styles.skillStarIcon)}/>
             </div>
           );
         })}
@@ -28,7 +28,7 @@ function Skills({
             <div
               className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
               key={i + 'skillStar'}>
-              <FontAwesomeIcon icon={faStarRegular} style={{color: '#ffb703'}}/>
+              <FontAwesomeIcon icon={faStarRegular} className={mergeClassNames(Styles.skillStarIcon)}/>
             </div>
           );
         })}

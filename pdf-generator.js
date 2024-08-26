@@ -33,8 +33,9 @@ const httpServer = require('http-server'); // Import http-server
     path: 'build/EthemCemOzkanCV.pdf', 
     format: 'A4',
     printBackground: true,
-    showBackground: false,
-    
+    margin: {
+        top: '20px',
+    }
   });
 
   await browser.close();
