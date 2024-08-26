@@ -2,7 +2,7 @@ name: React App Deployment # name of the workflo
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master" , "pdf-generator"]
 
 permissions:
   contents: read
