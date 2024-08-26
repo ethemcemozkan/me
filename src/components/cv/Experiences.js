@@ -6,7 +6,7 @@ import './styles.module.css';
 function Experiences({items, ...props}) {
   const convertedItems = (items || []).map((item) => {
     const {
-      company, companyWebSite, companyMeta, datesBetween, ...rest
+      company, companyWebSite, companyMeta, datesBetween, breakAfter, ...rest
     } = item;
     return {
       authority: company,

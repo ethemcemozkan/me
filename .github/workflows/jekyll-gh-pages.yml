@@ -27,6 +27,8 @@ jobs:
         run: npm install
       - name: NPM build
         run: npm run build
+      - name: Generate PDF using Puppeteer
+        run: npm run generate-pdf
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

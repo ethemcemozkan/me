@@ -28,6 +28,7 @@ class App extends Component {
               type: 'text',
               title: 'Introduction',
               icon: 'usertie',
+              breakAfter: true,
               content: `My name is Ethem Cem Özkan. With over a decade of experience in the software development industry, 
                             my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
                             taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
@@ -77,6 +78,7 @@ class App extends Component {
               type: 'skills',
               title: 'Languages',
               icon: 'language',
+              breakAfter: true,
               items: [
                 {skill: 'English', level: 5},
                 {skill: 'Turkish', level: 5},
@@ -87,6 +89,7 @@ class App extends Component {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
+              breakAfter: true,
               items: [
                 {
                   title: 'Senior DevOps Engineer',

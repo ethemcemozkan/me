@@ -31,12 +31,13 @@ const predefinedIcons = {
 };
 
 export default function Section({
-                                  title, content, icon, children, xtraClassName,
+                                  title, content, breakAfter ,icon, children, xtraClassName,
                                 }) {
   const iconComp = typeof icon === 'string' ? (predefinedIcons[icon] || faExclamation) : icon;
+  const breakAfterClassName = breakAfter ? Styles.pdfPageBreak: '';
 
   return (
-    <div className={mergeClassNames(BulmaCSS.container, Styles.sectionContainer, xtraClassName)}>
+    <div className={mergeClassNames(BulmaCSS.container, Styles.sectionContainer, breakAfterClassName, xtraClassName)}>
       <div className={mergeClassNames(BulmaCSS.columns)}>
         <div className={mergeClassNames(BulmaCSS['is-full'], BulmaCSS.column)}>
           <h4 id={title}

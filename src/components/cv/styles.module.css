@@ -191,6 +191,9 @@ divTable {
     text-align: right;
     margin: 5px;
 }
+.pdfPageBreak {
+    page-break-after: always
+}
 
 @media screen and (min-width: 650px) {
 

@@ -23,14 +23,17 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1",
+    "http-server": "^14.1.1",
     "postcss": "^8.1.0",
-    "postcss-modules": "^4.3.0"
+    "postcss-modules": "^4.3.0",
+    "puppeteer": "^23.1.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "generate-pdf": "node pdf-generator.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

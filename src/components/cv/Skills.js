@@ -7,7 +7,7 @@ import CVStyles from "./cv.module.css";
 import Styles from "./styles.module.css";
 import SkillLevel from "./SkillLevel";
 
-function Skills({title, icon, items, ...props}) {
+function Skills({title, icon, breakAfter ,items, ...props}) {
   const convertedItems = (items || []).map((item) => {
     const {
       skill, level, ...rest
@@ -22,6 +22,7 @@ function Skills({title, icon, items, ...props}) {
     <Section
       title={title}
       icon={icon}
+      breakAfter={breakAfter? breakAfter: false}
     >
       <div className={mergeClassNames(CVStyles.container, CVStyles['is-medium'], Styles.commonListContainer)}>
         {convertedItems.map((item, i) => {

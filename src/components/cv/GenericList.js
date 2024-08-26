@@ -8,7 +8,7 @@ import {Keywords} from './Keywords';
 import {MarkdownRender, getFixedUrl} from './Utils';
 
 export default function GenericList({
-                                      title, description, icon, items, xtraClassName,
+                                      title, description, icon, items, breakAfter, xtraClassName,
                                     }) {
   return (
     <Section
@@ -16,6 +16,7 @@ export default function GenericList({
       title={title}
       content={description}
       icon={icon}
+      breakAfter={breakAfter? breakAfter: false}
     >
       <div className={mergeClassNames(CVStyles.container, CVStyles['is-medium'], Styles.commonListContainer)}>
         {items.map((item, i) => {
