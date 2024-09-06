@@ -3,7 +3,7 @@ import React from 'react';
 
 // It is the responsibility of the parent project to sanitize the markdown
 export function MarkdownRender({markdown}) {
-  const html = marked.parse(markdown || ''); // maybe use memo?
+  const html = marked.parse(markdown || ''); 
   return (
     <div
       dangerouslySetInnerHTML={{

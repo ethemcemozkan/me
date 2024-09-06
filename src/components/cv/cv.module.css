@@ -4499,8 +4499,41 @@ fieldset[disabled] .select select:hover {
     }
 }
 
+.responsiveWrapper {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+  }
+.responsiveColumnLeft {
+    width: 50%;
+}
+.responsiveColumnRight {
+    width: 50%;
+}
+
 .field-body .field .field {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .responsiveColumnLeft {
+      float: none;
+      width: 100%;
+    }
+  
+    .responsiveColumnRight {
+      float: none;
+      width: 100%;
+      padding-top: 20px;
+    }
+    
+    .responsiveWrapper {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: block;
+  }
 }
 
 @media print {

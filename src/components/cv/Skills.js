@@ -1,54 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './styles.module.css';
-import Section from "./SectionDiv";
 import mergeClassNames from "classnames";
 import CVStyles from "./cv.module.css";
 import Styles from "./styles.module.css";
 import SkillLevel from "./SkillLevel";
 
-function Skills({title, icon, breakAfter ,items, ...props}) {
-  const convertedItems = (items || []).map((item) => {
-    const {
-      skill, level, ...rest
-    } = item;
-    return {
-      skill: skill,
-      level: level,
-      ...rest,
-    };
-  });
+function Skills({title, breakAfter ,items, ...props}) {
   return (
-    <Section
-      title={title}
-      icon={icon}
-      breakAfter={breakAfter? breakAfter: false}
-    >
       <div className={mergeClassNames(CVStyles.container, CVStyles['is-medium'], Styles.commonListContainer)}>
-        {convertedItems.map((item, i) => {
+        {items.map((item, i) => {
           const {
             skill: itemSkill,
             level: itemLevel,
           } = item;
           return (
-            <div className={mergeClassNames(CVStyles.content, Styles.skillTableRow, Styles.avoidBreakingOnPrint)}
+            <div className={mergeClassNames(CVStyles.content, Styles.skillTableRow)}
                  key={i}>
               <div
                 className={mergeClassNames(CVStyles.level, Styles.skillTableCell, CVStyles['is-marginless'], CVStyles['is-paddingless'])}
                 key={i + 'skillRow'}>
-                <h6 className={mergeClassNames(CVStyles['is-marginless'], CVStyles['level-left'])}
+                <h6 className={mergeClassNames(CVStyles['is-marginless'], CVStyles['level-left'],Styles.skillName )}
                     key={i + 'skillTitle'}>
                   {itemSkill}
                 </h6>
               </div>
-              <SkillLevel level={itemLevel} key={i + 'skillLevel'}>
-
-              </SkillLevel>
+              <SkillLevel level={itemLevel} key={i + 'skillLevel'} />
             </div>
           );
         })}
       </div>
-    </Section>
   );
 }
 

@@ -10,14 +10,14 @@ import Experiences from './Experiences';
 import GenericList from './GenericList';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Skills from "./Skills";
+import CategorisedSkills from "./CategorisedSkills";
 import Navigation from "./Navigation";
 
 config.autoAddCss = false;
 
 const componnentMap = {
   'experiences': Experiences,
-  'skills': Skills,
+  'skills': CategorisedSkills,
   text: Section,
   'generic': GenericList,
 };

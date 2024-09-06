@@ -28,71 +28,97 @@ class App extends Component {
               type: 'text',
               title: 'Introduction',
               icon: 'usertie',
-              breakAfter: true,
+              printableContent: `Senior DevOps Engineer with over 10 years of experience in cloud infrastructure, CI/CD pipelines, 
+                        and automation. Proven track record in AWS cloud migrations, containerizing legacy applications, 
+                        and optimizing development workflows for scalability and efficiency. 
+                        Skilled in collaborating with cross-functional teams to deliver reliable, secure, 
+                        and high-performing systems. Enthusiastic, hands-on, and always eager to learn new technologies.`,   
               content: `With over a decade of experience in the software development industry, 
-                            my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
-                            taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
-                            empowering me to orchestrate seamless project workflows while upholding CMMI processes.
-                            Moreover, I have been an integral part of many DevOps projects, including containerizing legacy applications, 
-                            orchestrating public cloud migrations, and architecting and implementing cloud-based solutions. 
-                            These experiences have been instrumental in shaping my career and 
-                            have contributed to my growth as a professional, resulting in my current position as a Senior DevOps Engineer.
-                            <br/>
-                            <br/>
-                            On a personal note, I am informal, cheerful, hands-on, enthusiastic and eager to learn. 
-                            I prefer working in an environment that is focused on generating results. 
-                            I enjoy working in a team with clear communication.
-                            <br/>
-                            <br/>
-                            In my free time, I find joy in tinkering with my smart home setup and exploring culinary delights in the kitchen. 
-                            I am happily married to İdil, who has been my companion throughout our relocation to the Netherlands.`,
+                        my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
+                        taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
+                        empowering me to orchestrate seamless project workflows while upholding CMMI processes.
+                        Moreover, I have been an integral part of many DevOps projects, including containerizing legacy applications, 
+                        orchestrating public cloud migrations, and architecting and implementing cloud-based solutions. 
+                        These experiences have been instrumental in shaping my career and 
+                        have contributed to my growth as a professional, resulting in my current position as a Senior DevOps Engineer.
+                        <br/>
+                        <br/>
+                        On a personal note, I am informal, cheerful, hands-on, enthusiastic and eager to learn. 
+                        I prefer working in an environment that is focused on generating results. 
+                        I enjoy working in a team with clear communication.
+                        <br/>
+                        <br/>
+                        In my free time, I find joy in tinkering with my smart home setup and exploring culinary delights in the kitchen. 
+                        I am happily married to İdil, who has been my companion throughout our relocation to the Netherlands.`,
             },
             {
               type: 'skills',
-              title: 'Skills',
+              title: 'Skills&Languages',
               icon: 'rocket',
               items: [
-                {skill: 'ECS', level: 5},
-                {skill: 'EC2', level: 5},
-                {skill: 'IAM', level: 5},
-                {skill: 'RDS', level: 5},
-                {skill: 'Aurora', level: 5},
-                {skill: 'Docker', level: 5},
-                {skill: 'Ansible', level: 5},
-                {skill: 'Cloudformation', level: 5},
-                {skill: 'Jenkins', level: 4},
-                {skill: 'EKS', level: 3},
-                {skill: 'Kubernetes', level: 3},
-                {skill: 'PostgreSQL', level: 3},
-                {skill: 'RabbitMQ', level: 3},
-                {skill: 'Python', level: 3},
-                {skill: 'Java', level: 3},
-                {skill: 'JavaScript', level: 2},
-                {skill: 'MySQL', level: 2},
-                {skill: 'Powershell', level: 2},
-                {skill: 'AWS CDK', level: 2},
-                {skill: 'Bash', level: 2},
-                {skill: 'AWS', level: 5},
-                {skill: 'Azure', level: 1},
-                {skill: 'Terraform', level: 1},
-              ]
-            },
-            {
-              type: 'skills',
-              title: 'Languages',
-              icon: 'language',
-              breakAfter: true,
-              items: [
-                {skill: 'English', level: 5},
-                {skill: 'Turkish', level: 5},
-                {skill: 'Dutch', level: 1},
+                { category: 'AWS Services', 
+                  icon: 'aws',
+                  column: 'left',
+                  skills: [
+                   {skill: 'ECS', level: 5},
+                   {skill: 'EC2', level: 5},
+                   {skill: 'IAM', level: 5},
+                   {skill: 'RDS', level: 5},
+                   {skill: 'Cloudtrail', level: 5},
+                   {skill: 'AWS Backup', level: 5},
+                   {skill: 'IAM Identity Center(AWS SSO)', level: 5},
+                   {skill: 'Aurora', level: 5},
+                   {skill: 'EKS', level: 3},
+                   {skill: 'AmazonMQ', level: 3},
+                  ]
+                },       
+                { category: 'Azure Services', 
+                  icon: 'azure',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Entra ID', level: 3},
+                  ]
+                },   
+                { category: 'Infrastructure & Automation', 
+                  icon: 'tooling',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Docker', level: 5},
+                   {skill: 'Ansible', level: 5},
+                   {skill: 'Cloudformation', level: 5},
+                   {skill: 'Jenkins', level: 4},
+                   {skill: 'Kubernetes', level: 3},
+                   {skill: 'PostgreSQL', level: 3},
+                   {skill: 'RabbitMQ', level: 3},
+                   {skill: 'CDK', level: 2},
+                   {skill: 'Terraform', level: 1},
+                  ]
+                },
+                { category: 'Programming Languages', 
+                  icon: 'code',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Python', level: 3},
+                   {skill: 'Java', level: 3},
+                   {skill: 'JavaScript', level: 2},
+                   {skill: 'Bash', level: 2},
+                  ]
+                },
+                { category: 'Languages',
+                  icon: 'language',
+                  column: 'left',
+                  skills: [
+                    {skill: 'English', level: 5},
+                    {skill: 'Turkish', level: 5},
+                    {skill: 'Dutch', level: 1},
+                  ]
+                },
               ]
             },
             {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
-              breakAfter: true,
               items: [
                 {
                   title: 'Senior DevOps Engineer',
@@ -118,8 +144,9 @@ class App extends Component {
                     'SNS',
                     'IAM',
                     'Glue',
+                    'S3',
                     'Redshift',
-                    'AWS SSO',
+                    'IAM Identity Center(AWS SSO)',
                     'Fargate',
                     'RDS',
                     'ECR',

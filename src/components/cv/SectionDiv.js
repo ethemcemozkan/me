@@ -31,7 +31,7 @@ const predefinedIcons = {
 };
 
 export default function Section({
-                                  title, content, breakAfter ,icon, children, xtraClassName,
+                                  title, content, printableContent, breakAfter ,icon, children, xtraClassName,
                                 }) {
   const iconComp = typeof icon === 'string' ? (predefinedIcons[icon] || faExclamation) : icon;
   const breakAfterClassName = breakAfter ? Styles.pdfPageBreak: '';
@@ -50,7 +50,7 @@ export default function Section({
           <hr className={Styles.diver}/>
           {content
             && (
-              <div className={mergeClassNames(Styles.sectionContent)}>
+              <div className={mergeClassNames(Styles.sectionContent, Styles.regularContent)}>
                 {
                   typeof content === 'string'
                     ? (
@@ -59,6 +59,20 @@ export default function Section({
                       />
                     )
                     : content
+                }
+              </div>
+            )}
+          {printableContent
+            && (
+              <div className={mergeClassNames(Styles.sectionContent, Styles.printableContent)}>
+                {
+                  typeof content === 'string'
+                    ? (
+                      <MarkdownRender
+                        markdown={printableContent}
+                      />
+                    )
+                    : printableContent
                 }
               </div>
             )}
