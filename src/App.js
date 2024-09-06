@@ -96,7 +96,7 @@ class App extends Component {
                 },
                 { category: 'Programming Languages', 
                   icon: 'code',
-                  column: 'right',
+                  column: 'left',
                   skills: [
                    {skill: 'Python', level: 3},
                    {skill: 'Java', level: 3},
@@ -106,7 +106,7 @@ class App extends Component {
                 },
                 { category: 'Languages',
                   icon: 'language',
-                  column: 'left',
+                  column: 'right',
                   skills: [
                     {skill: 'English', level: 5},
                     {skill: 'Turkish', level: 5},
