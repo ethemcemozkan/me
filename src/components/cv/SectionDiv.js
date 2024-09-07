@@ -94,4 +94,5 @@ Section.propTypes = {
   icon: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.string]),
   content: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.string]),
   children: PropTypes.shape({}),
+  breakAfter: PropTypes.bool,
 };

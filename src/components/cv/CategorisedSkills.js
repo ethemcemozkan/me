@@ -80,8 +80,18 @@ function CategorisedSkills({title, icon, breakAfter, items, ...props}) {
 
 
 CategorisedSkills.propTypes = {
-  items: PropTypes.array,
-  category: PropTypes.string,
+  items: PropTypes.arrayOf(PropTypes.shape({
+    category: PropTypes.string,
+    icon: PropTypes.string,
+    column: PropTypes.oneOf(['left', 'right']),
+    skills: PropTypes.arrayOf(PropTypes.shape({
+      skill: PropTypes.string,
+      level:PropTypes.oneOf([1, 2, 3, 4, 5]),
+    }))
+  })),
+  breakAfter: PropTypes.bool,
+  title: PropTypes.string,
+  type: PropTypes.string,
   icon: PropTypes.string,
 };
 

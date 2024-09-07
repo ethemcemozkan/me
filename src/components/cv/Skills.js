@@ -34,9 +34,11 @@ function Skills({title, breakAfter ,items, ...props}) {
 }
 
 Skills.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({})),
-  skill: PropTypes.string,
-  level: PropTypes.number
+  breakAfter: PropTypes.bool,
+  items: PropTypes.arrayOf(PropTypes.shape({
+    skill: PropTypes.string,
+    level: PropTypes.number
+  })),
 };
 
 export default Skills;

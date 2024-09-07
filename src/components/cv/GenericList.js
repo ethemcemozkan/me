@@ -63,5 +63,6 @@ GenericList.propTypes = {
   items: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
+  breakAfter: PropTypes.bool,
   icon: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.string]).isRequired,
 };
