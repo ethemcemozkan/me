@@ -98,10 +98,11 @@ class App extends Component {
                   icon: 'code',
                   column: 'left',
                   skills: [
-                   {skill: 'Python', level: 3},
+                   {skill: 'Python', level: 4},
                    {skill: 'Java', level: 3},
                    {skill: 'JavaScript', level: 2},
                    {skill: 'Bash', level: 2},
+                   {skill: 'Powershell', level: 2},
                   ]
                 },
                 { category: 'Languages',
