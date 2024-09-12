@@ -56,7 +56,7 @@ class App extends Component {
               title: 'Skills&Languages',
               icon: 'rocket',
               items: [
-                { category: 'AWS Services', 
+                { category: 'AWS', 
                   icon: 'aws',
                   column: 'left',
                   skills: [
@@ -70,9 +70,10 @@ class App extends Component {
                    {skill: 'Aurora', level: 5},
                    {skill: 'EKS', level: 3},
                    {skill: 'AmazonMQ', level: 3},
+                   {skill: 'Cost Optimization', level: 3},
                   ]
                 },       
-                { category: 'Azure Services', 
+                { category: 'Azure', 
                   icon: 'azure',
                   column: 'right',
                   skills: [
