@@ -125,6 +125,7 @@ class App extends Component {
                 {
                   title: 'Senior DevOps Engineer',
                   company: 'Coolblue Energie/ServiceHouse',
+                  breakAfter: true,
                   description: 'During my time at ServiceHouse, which later merged with Coolblue, ' +
                     'I played a pivotal role in migrating their infrastructure to AWS from its inception. ' +
                     'As a member of the DevOps team, I led the seamless transition of existing CI/CD pipelines and ' +
