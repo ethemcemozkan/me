@@ -70,7 +70,7 @@ class App extends Component {
                    {skill: 'Aurora', level: 5},
                    {skill: 'EKS', level: 3},
                    {skill: 'AmazonMQ', level: 3},
-                   {skill: 'Cost Optimization', level: 3},
+                   {skill: 'Cost Optimisation', level: 3},
                   ]
                 },       
                 { category: 'Azure', 
@@ -133,7 +133,7 @@ class App extends Component {
                     'In collaboration with the development teams, I designed and implemented tailored solutions to simplify ' +
                     'their interaction with AWS, streamlining the development process and mitigating the complexities ' +
                     'associated with cloud infrastructure. Notable achievements include the migration of workload services, databases, RabbitMQ clusters, ' +
-                    'and SSO systems to the cloud, as well as implementing an access request system resulting in seamless developer experience. ' +
+                    'and SSO systems to the cloud, implementing an access request system that improved the developer experience, and creating an automated unused resource deletion mechanism, which reduced cloud infrastructure costs. ' +
                     'These initiatives not only streamlined development processes but also contributed to ' +
                     'significant improvements in system performance, reliability, and security, ultimately driving business ' +
                     'success.',
