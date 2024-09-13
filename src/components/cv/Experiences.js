@@ -13,7 +13,7 @@ function Experiences({items, ...props}) {
       authorityWebSite: companyWebSite,
       authorityMeta: companyMeta,
       rightSide: datesBetween,
-      breakAfter: breakAfter? breakAfter: false,
+      breakAfter: breakAfter ? breakAfter: false,
       ...rest,
     };
   });

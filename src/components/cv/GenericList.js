@@ -9,14 +9,14 @@ import {MarkdownRender, getFixedUrl} from './Utils';
 
 export default function GenericList({
                                       title, description, icon, items, breakAfter, xtraClassName,
-                                    }) {
+                                    }) {                             
   return (
     <Section
       xtraClassName={xtraClassName}
       title={title}
       content={description}
       icon={icon}
-      breakAfter={breakAfter? breakAfter: false}
+      breakAfter={breakAfter}
     >
       <div className={mergeClassNames(CVStyles.container, CVStyles['is-medium'], Styles.commonListContainer)}>
         {items.map((item, i) => {
@@ -26,9 +26,9 @@ export default function GenericList({
             title: itemTitle,
             description: itemDesc,
             descriptionTags,
-            breakAfter: breakAfter,
+            breakAfter: itemBreakAfter
           } = item;
-          const breakAfterClassName = breakAfter ? Styles.pdfPageBreak: '';
+          const breakAfterClassName = itemBreakAfter ? Styles.pdfPageBreak: '';
           return (
             <div className={mergeClassNames(CVStyles.content, Styles.avoidBreakingOnPrint, breakAfterClassName)} key={i}>
               <div className={mergeClassNames(CVStyles.level, CVStyles['is-marginless'], CVStyles['is-paddingless'])}>
