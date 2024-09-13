@@ -26,9 +26,11 @@ export default function GenericList({
             title: itemTitle,
             description: itemDesc,
             descriptionTags,
+            breakAfter: breakAfter,
           } = item;
+          const breakAfterClassName = breakAfter ? Styles.pdfPageBreak: '';
           return (
-            <div className={mergeClassNames(CVStyles.content, Styles.avoidBreakingOnPrint)} key={i}>
+            <div className={mergeClassNames(CVStyles.content, Styles.avoidBreakingOnPrint, breakAfterClassName)} key={i}>
               <div className={mergeClassNames(CVStyles.level, CVStyles['is-marginless'], CVStyles['is-paddingless'])}>
                 <h5
                   className={mergeClassNames(CVStyles.title, CVStyles['is-marginless'], CVStyles['level-left'], CVStyles['is-size-5'])}>

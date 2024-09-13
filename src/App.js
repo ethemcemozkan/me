@@ -121,6 +121,7 @@ class App extends Component {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
+              breakAfter: true,
               items: [
                 {
                   title: 'Senior DevOps Engineer',
