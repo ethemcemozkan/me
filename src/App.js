@@ -88,6 +88,8 @@ class App extends Component {
                    {skill: 'Ansible', level: 5},
                    {skill: 'Cloudformation', level: 5},
                    {skill: 'Jenkins', level: 4},
+                   {skill: 'Linux', level: 3},
+                   {skill: 'Windows', level: 3},
                    {skill: 'Kubernetes', level: 3},
                    {skill: 'PostgreSQL', level: 3},
                    {skill: 'RabbitMQ', level: 3},
