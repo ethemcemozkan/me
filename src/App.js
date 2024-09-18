@@ -68,6 +68,7 @@ class App extends Component {
                    {skill: 'AWS Backup', level: 5},
                    {skill: 'IAM Identity Center(AWS SSO)', level: 5},
                    {skill: 'Aurora', level: 5},
+                   {skill: 'Glue', level: 4},
                    {skill: 'EKS', level: 3},
                    {skill: 'AmazonMQ', level: 3},
                    {skill: 'Cost Optimisation', level: 3},
