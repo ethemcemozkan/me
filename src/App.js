@@ -68,9 +68,9 @@ class App extends Component {
                    {skill: 'AWS Backup', level: 5},
                    {skill: 'IAM Identity Center(AWS SSO)', level: 5},
                    {skill: 'Aurora', level: 5},
+                   {skill: 'AmazonMQ', level: 5},
                    {skill: 'Glue', level: 4},
-                   {skill: 'EKS', level: 3},
-                   {skill: 'AmazonMQ', level: 3},
+                   {skill: 'EKS', level: 4},
                    {skill: 'Cost Optimisation', level: 3},
                   ]
                 },       
@@ -88,10 +88,10 @@ class App extends Component {
                    {skill: 'Docker', level: 5},
                    {skill: 'Ansible', level: 5},
                    {skill: 'Cloudformation', level: 5},
-                   {skill: 'Jenkins', level: 4},
-                   {skill: 'Linux', level: 3},
+                   {skill: 'Jenkins', level: 5},
+                   {skill: 'Linux', level: 4},
+                   {skill: 'Kubernetes', level: 4},
                    {skill: 'Windows', level: 3},
-                   {skill: 'Kubernetes', level: 3},
                    {skill: 'PostgreSQL', level: 3},
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
@@ -129,19 +129,16 @@ class App extends Component {
                 {
                   title: 'Senior DevOps Engineer',
                   company: 'Coolblue Energie/ServiceHouse',
-                  breakAfter: true,
-                  description: 'During my time at ServiceHouse, which later merged with Coolblue, ' +
-                    'I played a pivotal role in migrating their infrastructure to AWS from its inception. ' +
-                    'As a member of the DevOps team, I led the seamless transition of existing CI/CD pipelines and ' +
-                    'service workloads onto the AWS platform. Subsequently, I designed and implemented new opportunities ' +
-                    'provided by AWS to modernize their environments, ensuring scalability, reliability, and efficiency. ' +
-                    'In collaboration with the development teams, I designed and implemented tailored solutions to simplify ' +
-                    'their interaction with AWS, streamlining the development process and mitigating the complexities ' +
-                    'associated with cloud infrastructure. Notable achievements include the migration of workload services, databases, RabbitMQ clusters, ' +
-                    'and SSO systems to the cloud, implementing an access request system that improved the developer experience, and creating an automated unused resource deletion mechanism, which reduced cloud infrastructure costs. ' +
-                    'These initiatives not only streamlined development processes but also contributed to ' +
-                    'significant improvements in system performance, reliability, and security, ultimately driving business ' +
-                    'success.',
+                  description: '<ul>' +
+                    '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without without dealing with AWS complexities.</li>' +
+                    '<li><b>Migrated of workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency.</li>' +
+                    '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
+                    '<li>Implemented and migrated <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
+                    '<li>Built an <b>access request system</b> for managing access to restricted resources securely.</li>' +
+                    '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involment</li>' +
+                    '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
+                    '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
+                    '</ul>',
                   companyWebSite: 'https://www.coolblue.nl/energie',
                   datesBetween: '2019.09 - Present',
                   descriptionTags: [
@@ -151,6 +148,7 @@ class App extends Component {
                     'SNS',
                     'IAM',
                     'Glue',
+                    'Quicksight',
                     'S3',
                     'Redshift',
                     'IAM Identity Center(AWS SSO)',
@@ -172,10 +170,11 @@ class App extends Component {
                 {
                   title: 'DevOps Engineer',
                   company: 'ICterra',
-                  description: 'During my time as a DevOps Engineer, my primary responsibility revolved ' +
-                    'around creating robust CI/CD pipelines and establishing DTAP environments for various projects. ' +
-                    'Additionally, I gained experience with Windows containers and played a pivotal role in integrating ' +
-                    'containers, leveraging my expertise to ensure seamless deployment processes and optimize system performance.',
+                  description: '<ul>' +
+                    '<li><b>Developed and maintained robust CI/CD pipelines</b> to automate and streamline the development and deployment processes across various projects.</li>' +
+                    '<li>Established and managed DTAP environments (Development, Testing, Acceptance, and Production)</b>, ensuring consistency and stability throughout the software development lifecycle.</li>' + 
+                    '<li><b>Implemented Windows containers</b> that communicated with proprietary hardware, ensuring seamless integration and enhancing system functionality.</li>' +
+                    '</ul>',
                   companyWebSite: 'https://www.icterra.com',
                   companyMeta: '',
                   datesBetween: '2018.11 - 2019.09',
@@ -184,10 +183,11 @@ class App extends Component {
                 {
                   title: 'DevOps Engineer',
                   company: 'Notary Union of Turkey',
-                  description: 'I took on the crucial responsibility of managing the infrastructure for their ' +
-                    'self-developed software, which is essential to notaries across Turkey ' +
-                    'and operates at a high volume. My role involved assisting the team in containerizing ' +
-                    'their software solutions, leveraging my expertise to streamline processes and enhance system efficiency.',
+                  description: '<ul>' +
+                    '<li><b>Managed infrastructure</b> for high-volume, self-developed software used by notaries across Turkey, ensuring system stability and performance.</li>' +
+                    '<li><b>Assisted in containerizing software solutions</b>, streamlining deployment processes and improving scalability.</li>' +
+                    '<li><b>Optimized system efficiency</b> by leveraging containerization expertise, enabling smoother operations and faster deployments.</li>' +
+                    '</ul>',
                   companyWebSite: 'https://portal.tnb.org.tr',
                   datesBetween: '2018.06 - 2018.11',
                   descriptionTags: ['Docker', 'Swarm', 'Bitbucket']
@@ -195,11 +195,12 @@ class App extends Component {
                 {
                   title: 'Software Configuration Manager',
                   company: 'TUBITAK',
-                  description: 'I started on a journey of continuous learning and growth that shaped my expertise in CMMI processes and laid the foundations for my proficiency in AWS. As my tenure progressed, I assumed pivotal roles, notably being entrusted with the management of crucial project infrastructures and development/production environments.\n' +
-                    '\n' +
-                    'My responsibilities included managing configuration across all development environments, orchestrating CI pipelines, and facilitating the seamless deployment of releases while automating developer environment setups. Adherence to CMMI level 5 Configuration and Development processes was critical in all my projects. Notably, I had the privilege of working on Turkey-wide high-volume projects, such as the track and trace system for all medical devices, where my contributions played a pivotal role in ensuring project success.\n' +
-                    '\n' +
-                    'In addition to my configuration management duties, early in my career, I contributed to simplifying development workflows by developing Java-based libraries. ',
+                  description: '<ul>' +
+                    '<li><b>Leveraged AWS</b> to implement load testing environment.</li>' +
+                    '<li><b>Participated in CMMI level 3 and 5 review processes</b></li>' +
+                    '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
+                    '<li><b>Developed and managed infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices</li>' +
+                    '</ul>',
                   companyWebSite: 'https://tubitak.gov.tr',
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
                   datesBetween: '2012.05 - 2018.06',
