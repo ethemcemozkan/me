@@ -73,14 +73,7 @@ class App extends Component {
                    {skill: 'EKS', level: 4},
                    {skill: 'Cost Optimisation', level: 3},
                   ]
-                },       
-                { category: 'Azure', 
-                  icon: 'azure',
-                  column: 'right',
-                  skills: [
-                   {skill: 'Entra ID', level: 3},
-                  ]
-                },   
+                },
                 { category: 'Infrastructure & Automation', 
                   icon: 'tooling',
                   column: 'right',
@@ -95,12 +88,20 @@ class App extends Component {
                    {skill: 'PostgreSQL', level: 3},
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
+                   {skill: 'ELK', level: 3},
                    {skill: 'Terraform', level: 2},
                   ]
                 },
+                { category: 'Azure', 
+                  icon: 'azure',
+                  column: 'left',
+                  skills: [
+                   {skill: 'Entra ID', level: 3},
+                  ]
+                },   
                 { category: 'Programming Languages', 
                   icon: 'code',
-                  column: 'left',
+                  column: 'right',
                   skills: [
                    {skill: 'Python', level: 5},
                    {skill: 'Java', level: 4},
@@ -111,7 +112,7 @@ class App extends Component {
                 },
                 { category: 'Languages',
                   icon: 'language',
-                  column: 'right',
+                  column: 'left',
                   skills: [
                     {skill: 'English', level: 5},
                     {skill: 'Turkish', level: 5},
@@ -208,6 +209,7 @@ class App extends Component {
                     'Java',
                     'EC2',
                     'Cloudformation',
+                    'ELK',
                     'VM',
                     'Linux',
                     'Teamcity',
