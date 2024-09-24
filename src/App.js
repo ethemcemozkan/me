@@ -90,6 +90,7 @@ class App extends Component {
                    {skill: 'CDK', level: 3},
                    {skill: 'ELK', level: 3},
                    {skill: 'Terraform', level: 2},
+                   {skill: 'Cassandra', level: 2},
                   ]
                 },
                 { category: 'Azure', 
@@ -139,6 +140,7 @@ class App extends Component {
                     '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involment</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
                     '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
+                    '<li>Led <b>platform Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.coolblue.nl/energie',
                   datesBetween: '2019.09 - Present',
@@ -165,7 +167,8 @@ class App extends Component {
                     'AWX',
                     'Datadog',
                     'Python',
-                    'RabbitMQ'
+                    'RabbitMQ',
+                     'Gradle',
                   ]
                 },
                 {
@@ -220,7 +223,9 @@ class App extends Component {
                     'Powershell',
                     'EJB',
                     'Spring',
-                    'JSF'
+                    'Cassandra',
+                    'JSF',
+                     'Maven',
                   ]
                 }
               ]
