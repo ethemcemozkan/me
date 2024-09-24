@@ -132,12 +132,12 @@ class App extends Component {
                   title: 'Senior DevOps Engineer',
                   company: 'Coolblue Energie/ServiceHouse',
                   description: '<ul>' +
-                    '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without without dealing with AWS complexities.</li>' +
-                    '<li><b>Migrated of workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency.</li>' +
+                    '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities.</li>' +
+                    '<li><b>Migrated workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency.</li>' +
                     '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li>Implemented and migrated <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
                     '<li>Built an <b>access request system</b> for managing access to restricted resources securely.</li>' +
-                    '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involment</li>' +
+                    '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involvement.</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
                     '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
                     '<li>Led <b>platform Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
