@@ -102,7 +102,7 @@ class App extends Component {
                    {skill: 'Entra ID', level: 3},
                   ]
                 },   
-              ]
+                
                 { category: 'Programming Languages', 
                   icon: 'code',
                   column: 'left',
@@ -123,6 +123,7 @@ class App extends Component {
                     {skill: 'Dutch', level: 1},
                   ]
                 },
+             ]
             },
             {
               type: 'experiences',
