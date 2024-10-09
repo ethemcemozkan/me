@@ -137,7 +137,7 @@ class App extends Component {
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities.</li>' +
                     '<li><b>Migrated workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency.</li>' +
                     '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
-                    '<li>Implemented <b>self service external exposure</b> solution using API Gateway</li>'+
+                    '<li>Implemented <b>self service external exposure</b> solution using API Gateway.</li>'+
                     '<li>Implemented and migrated <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
                     '<li>Built an <b>access request system</b> using DynamoDB, Lambda for managing access to restricted resources securely.</li>' +
                     '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involvement.</li>' +
