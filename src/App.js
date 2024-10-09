@@ -56,6 +56,45 @@ class App extends Component {
               title: 'Skills&Languages',
               icon: 'rocket',
               items: [
+                { category: 'Infrastructure & Automation', 
+                  icon: 'tooling',
+                  column: 'left',
+                  skills: [
+                   {skill: 'Docker', level: 5},
+                   {skill: 'Ansible', level: 5},
+                   {skill: 'Cloudformation', level: 5},
+                   {skill: 'Jenkins', level: 5},
+                   {skill: 'Linux', level: 4},
+                   {skill: 'Kubernetes', level: 4},
+                   {skill: 'Windows', level: 3},
+                   {skill: 'PostgreSQL', level: 3},
+                   {skill: 'RabbitMQ', level: 3},
+                   {skill: 'CDK', level: 3},
+                   {skill: 'ELK', level: 3},
+                   {skill: 'Terraform', level: 2},
+                   {skill: 'Cassandra', level: 2},
+                  ]
+                },                
+                { category: 'Programming Languages', 
+                  icon: 'code',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Python', level: 5},
+                   {skill: 'Java', level: 4},
+                   {skill: 'JavaScript', level: 3},
+                   {skill: 'Bash', level: 3},
+                   {skill: 'Powershell', level: 3},
+                  ]
+                },
+                { category: 'Languages',
+                  icon: 'language',
+                  column: 'right',
+                  skills: [
+                    {skill: 'English', level: 5},
+                    {skill: 'Turkish', level: 5},
+                    {skill: 'Dutch', level: 1},
+                  ]
+                },
                 { category: 'AWS', 
                   icon: 'aws',
                   column: 'left',
@@ -77,52 +116,13 @@ class App extends Component {
                    {skill: 'Cost Optimisation', level: 3},
                   ]
                 },
-                { category: 'Infrastructure & Automation', 
-                  icon: 'tooling',
-                  column: 'right',
-                  skills: [
-                   {skill: 'Docker', level: 5},
-                   {skill: 'Ansible', level: 5},
-                   {skill: 'Cloudformation', level: 5},
-                   {skill: 'Jenkins', level: 5},
-                   {skill: 'Linux', level: 4},
-                   {skill: 'Kubernetes', level: 4},
-                   {skill: 'Windows', level: 3},
-                   {skill: 'PostgreSQL', level: 3},
-                   {skill: 'RabbitMQ', level: 3},
-                   {skill: 'CDK', level: 3},
-                   {skill: 'ELK', level: 3},
-                   {skill: 'Terraform', level: 2},
-                   {skill: 'Cassandra', level: 2},
-                  ]
-                },
                 { category: 'Azure', 
                   icon: 'azure',
-                  column: 'left',
+                  column: 'right',
                   skills: [
                    {skill: 'Entra ID', level: 3},
                   ]
                 },   
-                { category: 'Programming Languages', 
-                  icon: 'code',
-                  column: 'right',
-                  skills: [
-                   {skill: 'Python', level: 5},
-                   {skill: 'Java', level: 4},
-                   {skill: 'JavaScript', level: 3},
-                   {skill: 'Bash', level: 3},
-                   {skill: 'Powershell', level: 3},
-                  ]
-                },
-                { category: 'Languages',
-                  icon: 'language',
-                  column: 'left',
-                  skills: [
-                    {skill: 'English', level: 5},
-                    {skill: 'Turkish', level: 5},
-                    {skill: 'Dutch', level: 1},
-                  ]
-                },
               ]
             },
             {
