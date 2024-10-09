@@ -55,7 +55,6 @@ class App extends Component {
               type: 'skills',
               title: 'Skills&Languages',
               icon: 'rocket',
-              breakAfter: true,
               items: [
                 { category: 'AWS', 
                   icon: 'aws',
@@ -129,7 +128,7 @@ class App extends Component {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
-              
+              breakAfter: true,
               items: [
                 {
                   title: 'Senior DevOps Engineer',
