@@ -206,9 +206,9 @@ class App extends Component {
                   company: 'TUBITAK',
                   description: '<ul>' +
                     '<li><b>Leveraged AWS</b> to implement load testing environment.</li>' +
-                    '<li><b>Participated in CMMI level 3 and 5 review processes</b></li>' +
+                    '<li><b>Participated in CMMI level 3 and 5 review processes.</b></li>' +
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
-                    '<li><b>Developed and managed infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices</li>' +
+                    '<li><b>Developed and managed infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices.</li>' +
                     '</ul>',
                   companyWebSite: 'https://tubitak.gov.tr',
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
