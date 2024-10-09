@@ -55,10 +55,30 @@ class App extends Component {
               type: 'skills',
               title: 'Skills&Languages',
               icon: 'rocket',
+              breakAfter: true,
               items: [
+                { category: 'AWS', 
+                  icon: 'aws',
+                  column: 'left',
+                  skills: [
+                   {skill: 'ECS', level: 5},
+                   {skill: 'EC2', level: 5},
+                   {skill: 'IAM', level: 5},
+                   {skill: 'Lambda', level: 5},
+                   {skill: 'DynamoDB', level: 5}, 
+                   {skill: 'AWS Backup', level: 5},
+                   {skill: 'API Gateway', level: 5},
+                   {skill: 'IAM Identity Center(AWS SSO)', level: 5},
+                   {skill: 'Aurora', level: 5},
+                   {skill: 'AmazonMQ', level: 5},
+                   {skill: 'Glue', level: 4},
+                   {skill: 'EKS', level: 4},
+                   {skill: 'Cost Optimisation', level: 3},
+                  ]
+                },
                 { category: 'Infrastructure & Automation', 
                   icon: 'tooling',
-                  column: 'left',
+                  column: 'right',
                   skills: [
                    {skill: 'Docker', level: 5},
                    {skill: 'Ansible', level: 5},
@@ -74,10 +94,18 @@ class App extends Component {
                    {skill: 'Terraform', level: 2},
                    {skill: 'Cassandra', level: 2},
                   ]
-                },                
+                }, 
+                { category: 'Azure', 
+                  icon: 'azure',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Entra ID', level: 3},
+                  ]
+                },   
+              ]
                 { category: 'Programming Languages', 
                   icon: 'code',
-                  column: 'right',
+                  column: 'left',
                   skills: [
                    {skill: 'Python', level: 5},
                    {skill: 'Java', level: 4},
@@ -95,41 +123,12 @@ class App extends Component {
                     {skill: 'Dutch', level: 1},
                   ]
                 },
-                { category: 'AWS', 
-                  icon: 'aws',
-                  column: 'left',
-                  skills: [
-                   {skill: 'ECS', level: 5},
-                   {skill: 'EC2', level: 5},
-                   {skill: 'IAM', level: 5},
-                   {skill: 'RDS', level: 5},
-                   {skill: 'Lambda', level: 5},
-                   {skill: 'DynamoDB', level: 5}, 
-                   {skill: 'Cloudtrail', level: 5},
-                   {skill: 'AWS Backup', level: 5},
-                   {skill: 'API Gateway', level: 5},
-                   {skill: 'IAM Identity Center(AWS SSO)', level: 5},
-                   {skill: 'Aurora', level: 5},
-                   {skill: 'AmazonMQ', level: 5},
-                   {skill: 'Glue', level: 4},
-                   {skill: 'EKS', level: 4},
-                   {skill: 'Cost Optimisation', level: 3},
-                  ]
-                },
-                { category: 'Azure', 
-                  icon: 'azure',
-                  column: 'right',
-                  skills: [
-                   {skill: 'Entra ID', level: 3},
-                  ]
-                },   
-              ]
             },
             {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
-              breakAfter: true,
+              
               items: [
                 {
                   title: 'Senior DevOps Engineer',
