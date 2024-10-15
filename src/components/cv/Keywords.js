@@ -7,7 +7,7 @@ import CVStyles from './cv.module.css';
 
 export function Keywords({tags = [], tagClass}) {
   return (
-    <div className={mergeClass(CVStyles.tags, CVStyles['are-medium'])}>
+    <div className={mergeClass(CVStyles.tags, CVStyles['are-small'])}>
       {tags.map((tag, i) => (
         <div className={mergeClass(CVStyles.tag, CVStyles[tagClass])} key={i}>
           {tag}

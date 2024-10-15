@@ -138,8 +138,10 @@ class App extends Component {
                     '<li><b>Migrated workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency.</li>' +
                     '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li>Implemented <b>self service external exposure</b> solution using API Gateway.</li>'+
+                    '<li>Implemented <b>keystore and truststore management</b> solution using Ansible, streamlined certificate management and mutual tls configuration accross environments.</li>' +
                     '<li>Implemented and migrated <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
                     '<li>Built an <b>access request system</b> using DynamoDB, Lambda for managing access to restricted resources securely.</li>' +
+                    '<li><b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>'+
                     '<li>Built a <b>self service business intelligence system</b>, allowing business users to generate reports and insights with minimal IT involvement.</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
                     '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
