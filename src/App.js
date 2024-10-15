@@ -90,7 +90,7 @@ class App extends Component {
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
                    {skill: 'ELK', level: 3},
-                   {skill: 'Terraform', level: 2},
+                   {skill: 'Terraform', level: 3},
                    {skill: 'Cassandra', level: 2},
                   ]
                 }, 
@@ -148,6 +148,8 @@ class App extends Component {
                   companyWebSite: 'https://www.coolblue.nl/energie',
                   datesBetween: '2019.09 - Present',
                   descriptionTags: [
+                    'Techical Lead',
+                    'Agile',
                     'AWS',
                     'ECS',
                     'EKS',
@@ -214,6 +216,7 @@ class App extends Component {
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
                   datesBetween: '2012.05 - 2018.06',
                   descriptionTags: [
+                    'Agile',
                     'Java',
                     'EC2',
                     'Cloudformation',
