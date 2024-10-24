@@ -128,25 +128,50 @@ class App extends Component {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
-              breakAfter: true,
               items: [
                 {
+                  title: 'Senior Cloud Engineer',
+                  company: 'Coolblue',
+                  description: '<ul>' +
+                    '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
+                    '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
+                    '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
+                    '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
+                    '<li>Designing the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
+                    '</ul>',
+                  companyWebSite: 'https://www.coolblue.nl',
+                  datesBetween: '2023.12 - Present',
+                  descriptionTags: [
+                    'Techical Lead',
+                    'Agile',
+                    'AWS',
+                    'Azure',
+                    'Transit Gateway',
+                    'CDK',
+                    'Crowdstrike',
+                    'Teamcity',
+                    'TGW',
+                    'Terraform',
+                    'Azure Foundations'
+                  ]
+                },
+                {
                   title: 'Senior DevOps Engineer',
-                  company: 'Coolblue Energie/ServiceHouse',
+                  company: 'ServiceHouse',
                   description: '<ul>' +
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities like setting up external exposure using API Gateway or integration with <b>self service business intelligence system</b>.</li>' +
                     '<li><b>Migrated workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
                     '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li><b>Co-chaired platform future features meetings</b>, gathering feedback, managing developer expectations, and providing regular platform updates.</li>'+
                     '<li>Implemented <b>keystore and truststore management</b> solution using Ansible, streamlined certificate management and mutual TLS configuration across environments.</li>' +
-                    '<li>Implemented and migrated <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
+                    '<li>Implemented <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
                     '<li>Built an <b>access request system</b> using DynamoDB, Lambda for managing access to restricted resources securely.</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
                     '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
                     '<li>Led <b>platform Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
                     '</ul>',
-                  companyWebSite: 'https://www.coolblue.nl/energie',
-                  datesBetween: '2019.09 - Present',
+                  companyWebSite: 'https://servicehouse.nl/',
+                  datesBetween: '2019.09 - 2023.12',
                   descriptionTags: [
                     'Techical Lead',
                     'Agile',
