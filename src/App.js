@@ -226,7 +226,7 @@ class App extends Component {
                     '</ul>',
                   companyWebSite: 'https://portal.tnb.org.tr',
                   datesBetween: '2018.06 - 2018.11',
-                  descriptionTags: ['Docker', 'Swarm', 'Bitbucket']
+                  descriptionTags: ['Docker', 'Swarm', 'Bitbucket', 'Prometheus', 'Grafana']
                 },
                 {
                   title: 'Software Configuration Manager',
