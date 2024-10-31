@@ -99,6 +99,9 @@ class App extends Component {
                   column: 'right',
                   skills: [
                    {skill: 'Entra ID', level: 3},
+                   {skill: 'Azure DevOps', level: 3},
+                   {skill: 'Virtual Network', level: 3},
+                    {skill: 'Blob Storage', level: 3},
                   ]
                 },   
                 
@@ -133,8 +136,9 @@ class App extends Component {
                   title: 'Senior Cloud Engineer',
                   company: 'Coolblue',
                   description: '<ul>' +
-                    '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
-                    '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
+                   '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
+                   '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
+                    '<li>Implemented a <b>custom AWS landing zone</b>.</li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
                     '<li>Designing the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
@@ -146,6 +150,7 @@ class App extends Component {
                     'Agile',
                     'AWS',
                     'Azure',
+                    'Landing Zone',
                     'Transit Gateway',
                     'CDK',
                     'Crowdstrike',
