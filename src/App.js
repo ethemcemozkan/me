@@ -101,7 +101,7 @@ class App extends Component {
                    {skill: 'Entra ID', level: 3},
                    {skill: 'Azure DevOps', level: 3},
                    {skill: 'Virtual Network', level: 3},
-                    {skill: 'Blob Storage', level: 3},
+                   {skill: 'Storage Account', level: 3},
                   ]
                 },   
                 
