@@ -90,7 +90,7 @@ class App extends Component {
                    {skill: 'PostgreSQL', level: 3},
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
-                   {skill: 'ELK', level: 3},
+                   {skill: 'Elasticsearch Stack(ELK)', level: 3},
                    {skill: 'Cassandra', level: 2},
                   ]
                 }, 
