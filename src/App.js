@@ -66,6 +66,7 @@ class App extends Component {
                    {skill: 'Lambda', level: 5},
                    {skill: 'DynamoDB', level: 5}, 
                    {skill: 'AWS Backup', level: 5},
+                    {skill: 'Cloudwatch', level: 5},
                    {skill: 'API Gateway', level: 5},
                    {skill: 'IAM Identity Center(AWS SSO)', level: 5},
                    {skill: 'Aurora', level: 5},
@@ -91,6 +92,7 @@ class App extends Component {
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
                    {skill: 'Elasticsearch Stack(ELK)', level: 3},
+                   {skill: 'Datadog', level: 3},
                    {skill: 'Cassandra', level: 2},
                   ]
                 }, 
@@ -141,6 +143,7 @@ class App extends Component {
                     '<li>Implemented a <b>custom AWS landing zone</b>.</li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
+                    '<li>Implemented <b>Datadog</b> for monitoring and observability, improving system performance tracking and alerting.</li>' +
                     '<li>Designing the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.coolblue.nl',
