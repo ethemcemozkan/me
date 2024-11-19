@@ -154,6 +154,7 @@ class App extends Component {
                     'Transit Gateway',
                     'CDK',
                     'Crowdstrike',
+                     'Datadog',
                     'Teamcity',
                     'TGW',
                     'Terraform',
@@ -238,6 +239,8 @@ class App extends Component {
                   company: 'TUBITAK',
                   description: '<ul>' +
                     '<li><b>Leveraged AWS</b> to implement load testing environment.</li>' +
+                    '<li>Set up an observability environment using <b>Elasticsearch</b>, <b>Logstash</b>, <b>Kibana (ELK)</b>, and <b>Dynatrace</b>, enabling comprehensive monitoring and logging across systems.</li>' +
+                     '<li>Leveraged <b>Dynatrace</b> for application performance monitoring, improving incident response times and system reliability.</li>' +
                     '<li><b>Participated in CMMI level 3 and 5 review processes.</b></li>' +
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
                     '<li><b>Developed and managed infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices.</li>' +
@@ -251,6 +254,7 @@ class App extends Component {
                     'EC2',
                     'Cloudformation',
                     'ELK',
+                     'Dynatrace',
                     'VM',
                     'Linux',
                     'Teamcity',
