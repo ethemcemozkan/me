@@ -8,7 +8,7 @@ import BulmaCSS from './cv.module.css';
 import Styles from "./styles.module.css";
 import Skills from "./Skills";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCloud, faCode, faLanguage,faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faCloud, faCode, faLanguage, faScrewdriverWrench, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faAws, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -19,6 +19,7 @@ const predefinedIcons = {
   tooling: faScrewdriverWrench,
   code: faCode,
   azure: faMicrosoft,
+  observability: faMagnifyingGlass
 };
 
 function CategorisedSkills({title, icon, breakAfter, items, ...props}) {
