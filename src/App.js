@@ -91,8 +91,6 @@ class App extends Component {
                    {skill: 'PostgreSQL', level: 3},
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
-                   {skill: 'Elasticsearch Stack(ELK)', level: 3},
-                   {skill: 'Datadog', level: 3},
                    {skill: 'Cassandra', level: 2},
                   ]
                 }, 
@@ -116,6 +114,16 @@ class App extends Component {
                    {skill: 'JavaScript', level: 3},
                    {skill: 'Bash', level: 3},
                    {skill: 'Powershell', level: 3},
+                  ]
+                },
+                  { category: 'Observability', 
+                  icon: 'observability',
+                  column: 'left',
+                  skills: [
+                    {skill: 'Datadog', level: 3},
+                   {skill: 'Elasticsearch Stack(ELK)', level: 3},
+                   {skill: 'Dynatrace', level: 3},
+                    {skill: 'Grafana', level: 3},
                   ]
                 },
                 { category: 'Languages',
