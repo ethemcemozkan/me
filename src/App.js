@@ -155,7 +155,7 @@ class App extends Component {
                     '<li>Designing the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.coolblue.nl',
-                  datesBetween: '2023.12 - Present',
+                  datesBetween: '2022.12 - Present',
                   descriptionTags: [
                     'Techical Lead',
                     'Agile',
@@ -188,7 +188,7 @@ class App extends Component {
                     '<li>Led <b>platform Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
                     '</ul>',
                   companyWebSite: 'https://servicehouse.nl/',
-                  datesBetween: '2019.09 - 2023.12',
+                  datesBetween: '2019.09 - 2022.12',
                   descriptionTags: [
                     'Techical Lead',
                     'Agile',
