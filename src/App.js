@@ -149,6 +149,7 @@ class App extends Component {
                    '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
                    '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
                     '<li>Implemented a <b>custom AWS landing zone</b>.</li>' +
+                    '<li>Managed <b>Kubernetes(EKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
                     '<li>Implemented <b>Datadog</b> for monitoring and observability, improving system performance tracking and alerting.</li>' +
@@ -165,7 +166,7 @@ class App extends Component {
                     'Transit Gateway',
                     'CDK',
                     'Crowdstrike',
-                     'Datadog',
+                    'Datadog',
                     'Teamcity',
                     'TGW',
                     'Terraform',
@@ -177,8 +178,10 @@ class App extends Component {
                   company: 'ServiceHouse',
                   description: '<ul>' +
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities like setting up external exposure using API Gateway or integration with <b>self service business intelligence system</b>.</li>' +
-                    '<li><b>Migrated workload services, databasess, and RabbitMQ brokers</b> to AWS, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
+                    '<li><b>Migrated workload services, databases, and RabbitMQ brokers</b> from <b>on-premises</b> to <b>AWS</b>, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
                     '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
+                    '<li>Implemented and managed <b>Kubernetes(EKS)</b> clusters to efficiently host and scale workloads, leveraging <b>Operators</b> and <b>Helm charts</b> for automated deployment and lifecycle management.</li>' +
+                    '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>Kubernetes(EKS)</b> to streamline automation workflows and enhance deployment efficiency</li>'+
                     '<li><b>Co-chaired platform future features meetings</b>, gathering feedback, managing developer expectations, and providing regular platform updates.</li>'+
                     '<li>Implemented <b>keystore and truststore management</b> solution using Ansible, streamlined certificate management and mutual TLS configuration across environments.</li>' +
                     '<li>Implemented <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
@@ -227,6 +230,7 @@ class App extends Component {
                     '<li><b>Developed and maintained robust CI/CD pipelines</b> to automate and streamline the development and deployment processes across various projects.</li>' +
                     '<li>Established and managed DTAP environments (Development, Testing, Acceptance, and Production)</b>, ensuring consistency and stability throughout the software development lifecycle.</li>' + 
                     '<li><b>Implemented Windows containers</b> that communicated with proprietary hardware, ensuring seamless integration and enhancing system functionality.</li>' +
+                    '<li>Implemented and managed <b>on-premises</b> containerized environments.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.icterra.com',
                   companyMeta: '',
@@ -237,7 +241,7 @@ class App extends Component {
                   title: 'DevOps Engineer',
                   company: 'Notary Union of Turkey',
                   description: '<ul>' +
-                    '<li><b>Managed infrastructure</b> for high-volume, self-developed software used by notaries across Turkey, ensuring system stability and performance.</li>' +
+                    '<li><b>Managed on-premises infrastructure</b> for high-volume, self-developed software used by notaries across Turkey, ensuring system stability and performance.</li>' +
                     '<li><b>Assisted in containerizing software solutions</b>, streamlining deployment processes and improving scalability.</li>' +
                     '<li><b>Optimized system efficiency</b> by leveraging containerization expertise, enabling smoother operations and faster deployments.</li>' +
                     '</ul>',
@@ -251,10 +255,10 @@ class App extends Component {
                   description: '<ul>' +
                     '<li><b>Leveraged AWS</b> to implement load testing environment.</li>' +
                     '<li>Set up an observability environment using <b>Elasticsearch</b>, <b>Logstash</b>, <b>Kibana (ELK)</b>, and <b>Dynatrace</b>, enabling comprehensive monitoring and logging across systems.</li>' +
-                     '<li>Leveraged <b>Dynatrace</b> for application performance monitoring, improving incident response times and system reliability.</li>' +
+                    '<li>Leveraged <b>Dynatrace</b> for application performance monitoring, improving incident response times and system reliability.</li>' +
                     '<li><b>Participated in CMMI level 3 and 5 review processes.</b></li>' +
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
-                    '<li><b>Developed and managed infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices.</li>' +
+                    '<li><b>Developed and managed on-premises infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices.</li>' +
                     '</ul>',
                   companyWebSite: 'https://tubitak.gov.tr',
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
