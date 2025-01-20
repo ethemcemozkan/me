@@ -102,6 +102,9 @@ class App extends Component {
                    {skill: 'Azure DevOps', level: 3},
                    {skill: 'Virtual Network', level: 3},
                    {skill: 'Storage Account', level: 3},
+                   {skill: 'Bicep', level: 3},
+                   {skill: 'AKS', level: 3},
+        						{skill: 'Azure Monitor', level: 3},
                   ]
                 },   
                 
