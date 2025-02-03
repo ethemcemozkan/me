@@ -182,7 +182,7 @@ class App extends Component {
                   description: '<ul>' +
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities like setting up external exposure using API Gateway or integration with <b>self service business intelligence system</b>.</li>' +
                     '<li><b>Migrated workload services, databases, and RabbitMQ brokers</b> from <b>on-premises</b> to <b>AWS</b>, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
-                    '<li>Developed and managed <b>Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
+                      '<li>Developed and managed <b>Jenkins based Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li>Implemented and managed <b>Kubernetes(EKS)</b> clusters to efficiently host and scale workloads, leveraging <b>Operators</b> and <b>Helm charts</b> for automated deployment and lifecycle management.</li>' +
                     '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>Kubernetes(EKS)</b> to streamline automation workflows and enhance deployment efficiency</li>'+
                     '<li><b>Co-chaired platform future features meetings</b>, gathering feedback, managing developer expectations, and providing regular platform updates.</li>'+
@@ -230,7 +230,7 @@ class App extends Component {
                   title: 'DevOps Engineer',
                   company: 'ICterra',
                   description: '<ul>' +
-                    '<li><b>Developed and maintained robust CI/CD pipelines</b> to automate and streamline the development and deployment processes across various projects.</li>' +
+                    '<li><b>Developed and maintained robust Gitlab based CI/CD pipelines</b> to automate and streamline the development and deployment processes across various projects.</li>' +
                     '<li>Established and managed DTAP environments (Development, Testing, Acceptance, and Production)</b>, ensuring consistency and stability throughout the software development lifecycle.</li>' + 
                     '<li><b>Implemented Windows containers</b> that communicated with proprietary hardware, ensuring seamless integration and enhancing system functionality.</li>' +
                     '<li>Implemented and managed <b>on-premises</b> containerized environments.</li>' +
