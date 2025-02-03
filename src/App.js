@@ -151,7 +151,7 @@ class App extends Component {
                   description: '<ul>' +
                    '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
                    '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
-                    '<li>Implemented a <b>custom AWS landing zone</b>.</li>' +
+                    '<li>Implemented a <b>custom AWS landing zone</b> using Python CDK.</li>' +
                     '<li>Managed <b>Kubernetes(EKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
@@ -182,7 +182,7 @@ class App extends Component {
                   description: '<ul>' +
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities like setting up external exposure using API Gateway or integration with <b>self service business intelligence system</b>.</li>' +
                     '<li><b>Migrated workload services, databases, and RabbitMQ brokers</b> from <b>on-premises</b> to <b>AWS</b>, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
-                      '<li>Developed and managed <b>Jenkins based Central CI/CD pipelines</b> with configurable deployment options to streamline the development process.</li>' +
+                    '<li>Developed and managed <b>Jenkins</b> based <b>Central CI/CD Groovy pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li>Implemented and managed <b>Kubernetes(EKS)</b> clusters to efficiently host and scale workloads, leveraging <b>Operators</b> and <b>Helm charts</b> for automated deployment and lifecycle management.</li>' +
                     '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>Kubernetes(EKS)</b> to streamline automation workflows and enhance deployment efficiency</li>'+
                     '<li><b>Co-chaired platform future features meetings</b>, gathering feedback, managing developer expectations, and providing regular platform updates.</li>'+
@@ -190,8 +190,8 @@ class App extends Component {
                     '<li>Implemented <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
                     '<li>Built an <b>access request system</b> using DynamoDB, Lambda for managing access to restricted resources securely.</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
-                    '<li>Designed and implemented a <b>resource lifecycle management system</b> to automatically delete unused or expired resources, improving efficiency.</li>' +
-                    '<li>Led <b>platform Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
+                    '<li>Designed and implemented a <b>resource lifecycle management system</b> using Python to automatically delete unused or expired resources, improving efficiency.</li>' +
+                    '<li>Led <b>platform Python Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
                     '</ul>',
                   companyWebSite: 'https://servicehouse.nl/',
                   datesBetween: '2019.09 - 2022.12',
@@ -261,7 +261,7 @@ class App extends Component {
                     '<li>Leveraged <b>Dynatrace</b> for application performance monitoring, improving incident response times and system reliability.</li>' +
                     '<li><b>Participated in CMMI level 3 and 5 review processes.</b></li>' +
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
-                    '<li><b>Developed and managed on-premises infrastructure to Turkey-wide high-volume projects</b>, including the track and trace system for all medical devices.</li>' +
+                    '<li><b>Developed and managed on-premises infrastructure to Turkey-wide high-volume projects</b>, including the Java based track and trace system for all medical devices.</li>' +
                     '</ul>',
                   companyWebSite: 'https://tubitak.gov.tr',
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
