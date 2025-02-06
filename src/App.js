@@ -98,13 +98,14 @@ class App extends Component {
                   icon: 'azure',
                   column: 'right',
                   skills: [
+                   {skill: 'Function App', level: 4},
+                   {skill: 'AKS', level: 4},
+                   {skill: 'Virtual Network', level: 4},
+                   {skill: 'Bicep', level: 3},
                    {skill: 'Entra ID', level: 3},
                    {skill: 'Azure DevOps', level: 3},
-                   {skill: 'Virtual Network', level: 3},
                    {skill: 'Storage Account', level: 3},
-                   {skill: 'Bicep', level: 3},
-                   {skill: 'AKS', level: 3},
-        						{skill: 'Azure Monitor', level: 3},
+        				   {skill: 'Azure Monitor', level: 3},
                   ]
                 },   
                 
