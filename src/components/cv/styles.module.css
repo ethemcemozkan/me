@@ -41,6 +41,10 @@
     width: 150px;
 }
 
+
+.certificateName {
+    width: 400px;
+}
 .regularContent {
     display: block
 }
@@ -233,6 +237,11 @@ divTable {
     border: 0px;
     display: table-cell;
     padding: 3px 30px;
+}
+.certificateBadge {
+    border: 0px;
+    display: table-cell;
+    padding: 0px;
 }
 .skillStarIcon {
     color: #ffb703

@@ -12,11 +12,13 @@ import GenericList from './GenericList';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import CategorisedSkills from "./CategorisedSkills";
 import Navigation from "./Navigation";
+import Certificate from './Certificate';
 
 config.autoAddCss = false;
 
 const componnentMap = {
   'experiences': Experiences,
+  'certificate': Certificate,
   'skills': CategorisedSkills,
   text: Section,
   'generic': GenericList,

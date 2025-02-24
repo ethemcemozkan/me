@@ -13,6 +13,7 @@ import {
   faCubes,
   faExclamation,
   faUserTie,
+  faStamp,
 } from '@fortawesome/free-solid-svg-icons';
 import BulmaCSS from './cv.module.css';
 import Styles from './styles.module.css';
@@ -28,6 +29,7 @@ const predefinedIcons = {
   language: faLanguage,
   cubes: faCubes,
   usertie: faUserTie,
+  certificate: faStamp
 };
 
 export default function Section({

@@ -52,10 +52,45 @@ class App extends Component {
                         I am happily married to İdil, who has been my companion throughout our relocation to the Netherlands.`,
             },
             {
-              type: 'skills',
-              title: 'Skills&Languages',
-              icon: 'rocket',
+              type: 'certificate',
+              title: 'Certificates',
+              icon: 'certificate',
               items: [
+                {
+                  title: 'AZ-104: Azure Administrator Associate',
+                  authority: 'Microsoft Learn',
+                  badge: './badges/microsoft-certified-associate-badge.svg',
+                  authorityWebSite: 'https://learn.microsoft.com/api/credentials/share/en-us/ethemcemozkan/B6178AB2BF4ABB29?sharingId=E0534A99398541C',
+                }
+              ]
+            },
+            {
+              type: 'skills',
+              title: 'Skills',
+              icon: 'rocket',
+              breakAfter: true,
+              items: [
+                { category: 'Programming Languages', 
+                  icon: 'code',
+                  column: 'left',
+                  skills: [
+                   {skill: 'Python', level: 5},
+                   {skill: 'Java', level: 4},
+                   {skill: 'JavaScript', level: 3},
+                   {skill: 'Bash', level: 3},
+                   {skill: 'Powershell', level: 3},
+                  ]
+                },
+                { category: 'Observability', 
+                  icon: 'observability',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Datadog', level: 3},
+                   {skill: 'Elasticsearch Stack(ELK)', level: 3},
+                   {skill: 'Dynatrace', level: 3},
+                   {skill: 'Grafana', level: 3},
+                  ]
+                },
                 { category: 'AWS', 
                   icon: 'aws',
                   column: 'left',
@@ -66,7 +101,7 @@ class App extends Component {
                    {skill: 'Lambda', level: 5},
                    {skill: 'DynamoDB', level: 5}, 
                    {skill: 'AWS Backup', level: 5},
-                    {skill: 'Cloudwatch', level: 5},
+                   {skill: 'Cloudwatch', level: 5},
                    {skill: 'API Gateway', level: 5},
                    {skill: 'IAM Identity Center(AWS SSO)', level: 5},
                    {skill: 'Aurora', level: 5},
@@ -76,6 +111,32 @@ class App extends Component {
                    {skill: 'Cost Optimisation', level: 3},
                   ]
                 },
+                
+                { category: 'Languages',
+                  icon: 'language',
+                  column: 'left',
+                  skills: [
+                    {skill: 'English', level: 5},
+                    {skill: 'Turkish', level: 5},
+                    {skill: 'Dutch', level: 1},
+                  ]
+                },
+                
+                { category: 'Azure', 
+                  icon: 'azure',
+                  column: 'right',
+                  skills: [
+                   {skill: 'Function App', level: 4},
+                   {skill: 'AKS', level: 4},
+                   {skill: 'Virtual Network', level: 4},
+                   {skill: 'Bicep', level: 3},
+                   {skill: 'Entra ID', level: 3},
+                   {skill: 'Azure DevOps', level: 3},
+                   {skill: 'Storage Account', level: 3},
+        				   {skill: 'Azure Monitor', level: 3},
+                  ]
+                },   
+                
                 { category: 'Infrastructure & Automation', 
                   icon: 'tooling',
                   column: 'right',
@@ -94,51 +155,6 @@ class App extends Component {
                    {skill: 'Cassandra', level: 2},
                   ]
                 }, 
-                { category: 'Azure', 
-                  icon: 'azure',
-                  column: 'right',
-                  skills: [
-                   {skill: 'Function App', level: 4},
-                   {skill: 'AKS', level: 4},
-                   {skill: 'Virtual Network', level: 4},
-                   {skill: 'Bicep', level: 3},
-                   {skill: 'Entra ID', level: 3},
-                   {skill: 'Azure DevOps', level: 3},
-                   {skill: 'Storage Account', level: 3},
-        				   {skill: 'Azure Monitor', level: 3},
-                  ]
-                },   
-                
-                { category: 'Programming Languages', 
-                  icon: 'code',
-                  column: 'left',
-                  skills: [
-                   {skill: 'Python', level: 5},
-                   {skill: 'Java', level: 4},
-                   {skill: 'JavaScript', level: 3},
-                   {skill: 'Bash', level: 3},
-                   {skill: 'Powershell', level: 3},
-                  ]
-                },
-                  { category: 'Observability', 
-                  icon: 'observability',
-                  column: 'left',
-                  skills: [
-                    {skill: 'Datadog', level: 3},
-                   {skill: 'Elasticsearch Stack(ELK)', level: 3},
-                   {skill: 'Dynatrace', level: 3},
-                    {skill: 'Grafana', level: 3},
-                  ]
-                },
-                { category: 'Languages',
-                  icon: 'language',
-                  column: 'right',
-                  skills: [
-                    {skill: 'English', level: 5},
-                    {skill: 'Turkish', level: 5},
-                    {skill: 'Dutch', level: 1},
-                  ]
-                },
              ]
             },
             {
