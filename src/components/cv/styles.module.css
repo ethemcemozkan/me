@@ -123,6 +123,13 @@ body {
         margin: 0px;
     }
 
+    .certificateBadge { 
+        filter: grayscale(1);
+        border: 0px;
+        display: table-cell;
+        padding: 0px;
+    }
+    
     a {
         color: grey;
         cursor: pointer;
