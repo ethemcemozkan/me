@@ -76,19 +76,19 @@ class App extends Component {
                   skills: [
                    {skill: 'Python', level: 5},
                    {skill: 'Java', level: 4},
-                   {skill: 'JavaScript', level: 3},
+                   {skill: 'JavaScript', level: 4},
+                   {skill: 'Powershell', level: 4},
                    {skill: 'Bash', level: 3},
-                   {skill: 'Powershell', level: 3},
                   ]
                 },
                 { category: 'Observability', 
                   icon: 'observability',
                   column: 'right',
                   skills: [
-                   {skill: 'Datadog', level: 3},
+                   {skill: 'Datadog', level: 4},
+                   {skill: 'Grafana', level: 4},
                    {skill: 'Elasticsearch Stack(ELK)', level: 3},
                    {skill: 'Dynatrace', level: 3},
-                   {skill: 'Grafana', level: 3},
                   ]
                 },
                 { category: 'AWS', 
@@ -150,6 +150,7 @@ class App extends Component {
                    {skill: 'Kubernetes', level: 4},
                    {skill: 'Windows', level: 3},
                    {skill: 'PostgreSQL', level: 3},
+                   {skill: 'Oracle', level: 3},
                    {skill: 'RabbitMQ', level: 3},
                    {skill: 'CDK', level: 3},
                    {skill: 'Cassandra', level: 2},
@@ -166,8 +167,8 @@ class App extends Component {
                   title: 'Senior Cloud Engineer',
                   company: 'Coolblue',
                   description: '<ul>' +
-                   '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
-                   '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
+                    '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
+                    '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
                     '<li>Implemented a <b>custom AWS landing zone</b> using Python CDK.</li>' +
                     '<li>Managed <b>Kubernetes(EKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
@@ -289,7 +290,7 @@ class App extends Component {
                     'EC2',
                     'Cloudformation',
                     'ELK',
-                     'Dynatrace',
+                    'Dynatrace',
                     'VM',
                     'Linux',
                     'Teamcity',
@@ -302,7 +303,7 @@ class App extends Component {
                     'Spring',
                     'Cassandra',
                     'JSF',
-                     'Maven',
+                    'Maven',
                   ]
                 }
               ]
