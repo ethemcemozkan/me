@@ -31,7 +31,7 @@ function Certificate({title, breakAfter, icon, items, ...props}) {
                 key={i + 'skillRow'}>
                 
               <figure className={mc(CVStyles.image, Styles.certificateBadge)}>
-                    <img className={CVStyles['is-rounded'], Styles.certificateBadgeImage} src={badge} alt={itemTitle}/>
+                  <img className={mergeClassNames(CVStyles['is-rounded'], Styles.certificateBadgeImage)} src={badge} alt={itemTitle}/>
               </figure>
                 <h6 className={mergeClassNames(Styles.skillTableCell,CVStyles['is-marginless'],Styles.certificateName )}
                     key={i + 'itemTitle'}>

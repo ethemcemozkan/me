@@ -59,7 +59,7 @@ class App extends Component {
                 {
                   title: 'AZ-104: Azure Administrator Associate',
                   authority: 'Microsoft Learn',
-                  badge: './badges/microsoft-certified-associate-badge.svg',
+                  badge: './badges/microsoft-certified-administrator-associate-badge.svg',
                   authorityWebSite: 'https://learn.microsoft.com/api/credentials/share/en-us/ethemcemozkan/B6178AB2BF4ABB29?sharingId=E0534A99398541C',
                 }
               ]
