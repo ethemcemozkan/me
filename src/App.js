@@ -11,7 +11,7 @@ class App extends Component {
       <CemCV
         personalData={{
           name: 'Ethem Cem Özkan',
-          title: 'Senior DevOps Engineer',
+          title: 'Freelance Senior DevOps Engineer',
           image: './ethemcemozkan.jpg',
           contacts: [
             {type: 'email', value: 'me@ethemcemozkan.com'},
@@ -163,7 +163,22 @@ class App extends Component {
               type: 'experiences',
               title: 'Experiences',
               icon: 'archive',
+              breakAfter: true,
               items: [
+                {
+                  title: 'DevOps & Automation Engineer',
+                  company: 'Viterra',
+                  description: '<ul>' +
+                    '</ul>',
+                  companyWebSite: 'https://www.viterra.com',
+                  datesBetween: '2024.04 - Present',
+                  authorityMeta: 'Self Employed',
+                  descriptionTags: [
+                    'Azure DevOps',
+                    'Ansible',
+                    'Ansible Automation Platform'
+                  ]
+                },
                 {
                   title: 'Senior Cloud Engineer',
                   company: 'Coolblue',
@@ -171,14 +186,16 @@ class App extends Component {
                     '<li>Designed a <b>shared VPC</b> to streamline networking between Coolblue and Coolblue Energie.</li>' +
                     '<li>Implemented <b>cross VPC connectivity</b> using AWS Transit Gateway.</li>' +
                     '<li>Implemented a <b>custom AWS landing zone</b> using Python CDK.</li>' +
-                    '<li>Managed <b>Kubernetes(EKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
+                    '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>EKS</b> and <b>AKS</b> to support <b>multi cloud</b> infrastructure. </li>'+
+                    '<li>Managed <b>Kubernetes(EKS, AKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
                     '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
                     '<li>Implemented <b>Datadog</b> for monitoring and observability, improving system performance tracking and alerting.</li>' +
-                    '<li>Designing the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
+                    '<li>Designed the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
+                    '<li>Desingned and implemented a multi subscription Azure environment using <b>Terraform</b>, <b>Virtual Machines, <b>Virtual Networks</b>, <b>Network Manager</b>, <b>AKS</b>, <b>Firewall</b>, <b>Application Gateways</b>.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.coolblue.nl',
-                  datesBetween: '2022.12 - Present',
+                  datesBetween: '2022.12 - 2024.04',
                   descriptionTags: [
                     'Techical Lead',
                     'Agile',
@@ -282,7 +299,7 @@ class App extends Component {
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
                     '<li><b>Developed and managed on-premises infrastructure to Turkey-wide high-volume projects</b>, including the Java based track and trace system for all medical devices.</li>' +
                     '</ul>',
-                  companyWebSite: 'https://tubitak.gov.tr',
+                  companyWebSite: 'https://tubitak.gov.tr/en',
                   companyMeta: 'The Scientific and Technological Research Council Of Turkey',
                   datesBetween: '2012.05 - 2018.06',
                   descriptionTags: [
