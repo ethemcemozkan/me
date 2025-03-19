@@ -28,11 +28,12 @@ class App extends Component {
               type: 'text',
               title: 'Introduction',
               icon: 'usertie',
-              printableContent: `Senior DevOps Engineer with over 10 years of experience in cloud infrastructure, CI/CD pipelines, 
-                        and automation. Proven track record in AWS cloud migrations, containerizing legacy applications, 
-                        and optimizing development workflows for scalability and efficiency. 
-                        Skilled in collaborating with cross-functional teams to deliver reliable, secure, 
-                        and high-performing systems. Enthusiastic, hands-on, and always eager to learn new technologies.`,   
+              printableContent: `Freelance Senior DevOps Engineer and founder of Celebron IT Solutions B.V.,
+                                 with over 10 years of experience in cloud infrastructure, CI/CD pipelines, and automation.
+                                 Proven track record in AWS Azure cloud migrations, containerizing legacy applications, and
+                                 designing scalable, secure environments. Specializing in cloud and on-premises solutions, observability,
+                                 and infrastructure optimization. Skilled in collaborating with cross-functional teams to deliver high-performing, efficient systems.
+                                 Enthusiastic, hands-on, and always eager to learn new technologies.`,
               content: `With over a decade of experience in the software development industry, 
                         my career started as an Infrastructure Developer working on developing software libraries as well as managing CI pipelines,
                         taking releases, making production deployments. Later on, this job role evolved into Software Configuration Management, 
@@ -41,6 +42,11 @@ class App extends Component {
                         orchestrating public cloud migrations, and architecting and implementing cloud-based solutions. 
                         These experiences have been instrumental in shaping my career and 
                         have contributed to my growth as a professional, resulting in my current position as a Senior DevOps Engineer.
+                        <br/>
+                        <br/>
+                        I established Celebron IT Solutions B.V. to provide expert DevOps consulting as an independent consultant.
+                        I help businesses create, optimize, and design cloud and on-premises environments, as well as observability solutions.
+                        My focus is on delivering efficient, secure, and scalable infrastructure tailored to each organization’s needs.
                         <br/>
                         <br/>
                         On a personal note, I am informal, cheerful, hands-on, enthusiastic and eager to learn. 
@@ -172,7 +178,7 @@ class App extends Component {
                     '</ul>',
                   companyWebSite: 'https://www.viterra.com',
                   datesBetween: '2024.04 - Present',
-                  authorityMeta: 'Self Employed',
+                  authorityMeta: 'Freelance',
                   descriptionTags: [
                     'Azure DevOps',
                     'Ansible',
@@ -192,7 +198,7 @@ class App extends Component {
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
                     '<li>Implemented <b>Datadog</b> for monitoring and observability, improving system performance tracking and alerting.</li>' +
                     '<li>Designed the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
-                    '<li>Desingned and implemented a multi subscription Azure environment using <b>Terraform</b>, <b>Virtual Machines, <b>Virtual Networks</b>, <b>Network Manager</b>, <b>AKS</b>, <b>Firewall</b>, <b>Application Gateways</b>.</li>' +
+                    '<li>Designed and implemented a multi subscription Azure environment using <b>Terraform</b>, <b>Bicep</b>, <b>Virtual Machines</b>, <b>Virtual Networks</b>, <b>Network Manager</b>, <b>AKS</b>, <b>Firewall</b>, <b>Application Gateways</b>.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.coolblue.nl',
                   datesBetween: '2022.12 - 2024.04',
