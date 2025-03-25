@@ -28,7 +28,7 @@ class App extends Component {
               type: 'text',
               title: 'Introduction',
               icon: 'usertie',
-              printableContent: `Freelance Senior DevOps Engineer and founder of Celebron IT Solutions B.V.,
+              printableContent: `Freelance Senior DevOps Engineer and founder of <a href="https://celebronitsolutions.com/#/">Celebron IT Solutions B.V.</a>,
                                  with over 10 years of experience in cloud infrastructure, CI/CD pipelines, and automation.
                                  Proven track record in AWS Azure cloud migrations, containerizing legacy applications, and
                                  designing scalable, secure environments. Specializing in cloud and on-premises solutions, observability,
@@ -44,7 +44,7 @@ class App extends Component {
                         have contributed to my growth as a professional, resulting in my current position as a Senior DevOps Engineer.
                         <br/>
                         <br/>
-                        I established Celebron IT Solutions B.V. to provide expert DevOps consulting as an independent consultant.
+                        I established <a href="https://celebronitsolutions.com/#/">Celebron IT Solutions B.V.</a> to provide expert DevOps consulting as an independent consultant.
                         I help businesses create, optimize, and design cloud and on-premises environments, as well as observability solutions.
                         My focus is on delivering efficient, secure, and scalable infrastructure tailored to each organization’s needs.
                         <br/>
@@ -158,7 +158,8 @@ class App extends Component {
                    {skill: 'Windows', level: 4},
                    {skill: 'Redis', level: 4},
                    {skill: 'PostgreSQL', level: 4},
-                   {skill: 'Oracle', level: 3},
+                   {skill: 'MySQL', level: 4},
+                   {skill: 'Oracle Database', level: 3},
                    {skill: 'CDK', level: 3},
                    {skill: 'Cassandra', level: 2},
                   ]
@@ -194,7 +195,7 @@ class App extends Component {
                     '<li>Implemented a <b>custom AWS landing zone</b> using Python CDK.</li>' +
                     '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>EKS</b> and <b>AKS</b> to support <b>multi cloud</b> infrastructure. </li>'+
                     '<li>Managed <b>Kubernetes(EKS, AKS)</b> environments with a focus on CI/CD integrations, observability tooling, and workload orchestration. </li>' +
-                    '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as GuardDuty.</li>' +
+                    '<li><b>Enhanced security monitoring and threat detection</b> by implementing advanced security features such as <b>GuardDuty</b> and later on <b>Crowdstrike</b>.</li>' +
                     '<li>Migrated <b>SSO systems</b> to a new <b>Azure Entra ID tenant</b>, improving authentication workflows and identity management.</li>' +
                     '<li>Implemented <b>Datadog</b> for monitoring and observability, improving system performance tracking and alerting.</li>' +
                     '<li>Designed the adoption of <b>Azure cloud services</b>, enabling new business capabilities and integrating with existing infrastructure for hybrid cloud solutions.</li>' +
@@ -223,17 +224,18 @@ class App extends Component {
                   company: 'ServiceHouse',
                   description: '<ul>' +
                     '<li><b>Self service AWS cloud implementation</b>, enabling teams to autonomously manage cloud resources without dealing with AWS complexities like setting up external exposure using API Gateway or integration with <b>self service business intelligence system</b>.</li>' +
-                    '<li><b>Migrated workload services, databases, and RabbitMQ brokers</b> from <b>on-premises</b> to <b>AWS</b>, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
+                    '<li><b>Migrated workload services, PostgreSQL databases, and RabbitMQ brokers</b> from <b>on-premises</b> to <b>AWS</b>, improving scalability and cost-efficiency. After migrations <b>Enhanced security</b> by implementing <b>WAF</b> and <b>CloudTrail</b>.</li>' +
                     '<li>Developed and managed <b>Jenkins</b> based <b>Central CI/CD Groovy pipelines</b> with configurable deployment options to streamline the development process.</li>' +
                     '<li>Implemented and managed <b>Kubernetes(EKS)</b> clusters to efficiently host and scale workloads, leveraging <b>Operators</b> and <b>Helm charts</b> for automated deployment and lifecycle management.</li>' +
                     '<li>Integrated <b>AWX(Ansible Tower)</b> with <b>Kubernetes(EKS)</b> to streamline automation workflows and enhance deployment efficiency</li>'+
                     '<li><b>Co-chaired platform future features meetings</b>, gathering feedback, managing developer expectations, and providing regular platform updates.</li>'+
                     '<li>Implemented <b>keystore and truststore management</b> solution using Ansible, streamlined certificate management and mutual TLS configuration across environments.</li>' +
                     '<li>Implemented <b>SSO systems</b> using AWS IAM Identity Center and Azure Entra ID.</li>' +
+                    '<li>Implemented <b>SuiteCRM</b> environment using AWS EC2, Aurora Mysql.</li>' +
                     '<li>Built an <b>access request system</b> using DynamoDB, Lambda for managing access to restricted resources securely.</li>' +
                     '<li>Led <b>AWS cloud modernization efforts</b>, optimizing cloud infrastructure for performance and cost-effectiveness.</li>' +
                     '<li>Designed and implemented a <b>resource lifecycle management system</b> using Python to automatically delete unused or expired resources, improving efficiency.</li>' +
-                    '<li>Led <b>platform Python Lambda unit, integration test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
+                    '<li>Led <b>platform Python Lambda unit, integration test</b> and <b>Ansible Molecule test</b> efforts, improving test coverage and reducing deployment risks by implementing a simplified testing framework.</li>' +
                     '</ul>',
                   companyWebSite: 'https://servicehouse.nl/',
                   datesBetween: '2019.09 - 2022.12',
@@ -245,6 +247,7 @@ class App extends Component {
                     'EKS',
                     'SNS',
                     'IAM',
+                    'Molecule',
                     'API Gateway',
                     'DynamoDB',
                     'Glue',
@@ -276,6 +279,7 @@ class App extends Component {
                     '<li>Established and managed DTAP environments (Development, Testing, Acceptance, and Production)</b>, ensuring consistency and stability throughout the software development lifecycle.</li>' + 
                     '<li><b>Implemented Windows containers</b> that communicated with proprietary hardware, ensuring seamless integration and enhancing system functionality.</li>' +
                     '<li>Implemented and managed <b>on-premises</b> containerized environments.</li>' +
+                    '<li>Implemented <b>highly available PostgreSQL</b> environment.</li>' +
                     '</ul>',
                   companyWebSite: 'https://www.icterra.com',
                   companyMeta: '',
@@ -289,6 +293,7 @@ class App extends Component {
                     '<li><b>Managed on-premises infrastructure</b> for high-volume, self-developed software used by notaries across Turkey, ensuring system stability and performance.</li>' +
                     '<li><b>Assisted in containerizing software solutions</b>, streamlining deployment processes and improving scalability.</li>' +
                     '<li><b>Optimized system efficiency</b> by leveraging containerization expertise, enabling smoother operations and faster deployments.</li>' +
+                    '<li>Implemented <b>Docker Swarm</b> observability solution using <b>Prometheus</b> and <b>Grafana</b>.</li>' +
                     '</ul>',
                   companyWebSite: 'https://portal.tnb.org.tr',
                   datesBetween: '2018.06 - 2018.11',
@@ -302,6 +307,7 @@ class App extends Component {
                     '<li>Set up an observability environment using <b>Elasticsearch</b>, <b>Logstash</b>, <b>Kibana (ELK)</b>, and <b>Dynatrace</b>, enabling comprehensive monitoring and logging across systems.</li>' +
                     '<li>Leveraged <b>Dynatrace</b> for application performance monitoring, improving incident response times and system reliability.</li>' +
                     '<li><b>Participated in CMMI level 3 and 5 review processes.</b></li>' +
+                    '<li>Managed <b>Oracle</b> installations.</b></li>' +
                     '<li><b>Managed configuration</b> across development, testing and production environments, <b>orchestrated CI pipelines</b>, <b>automated developer setups</b>, and ensured adherence to CMMI level 5 processes.</li>' +
                     '<li><b>Developed and managed on-premises infrastructure to Turkey-wide high-volume projects</b>, including the Java based track and trace system for all medical devices.</li>' +
                     '</ul>',
