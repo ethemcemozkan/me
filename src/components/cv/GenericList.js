@@ -22,7 +22,7 @@ export default function GenericList({
         {items.map((item, i) => {
           const {
             authority,
-            authorityWebSite, authorityMeta, rightSide, rightSideDetail,
+            authorityWebSite, authorityMeta, rightSide,
             title: itemTitle,
             description: itemDesc,
             descriptionTags,
