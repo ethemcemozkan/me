@@ -181,9 +181,12 @@ class App extends Component {
                   datesBetween: '2024.04 - Present',
                   authorityMeta: 'Freelance',
                   descriptionTags: [
+                    'AWS',
                     'Azure DevOps',
                     'Ansible',
-                    'Ansible Automation Platform'
+                    'Ansible Automation Platform',
+                    'Kubernetes'
+                    
                   ]
                 },
                 {
