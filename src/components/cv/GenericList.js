@@ -36,7 +36,9 @@ export default function GenericList({
                   className={mergeClassNames(CVStyles.title, CVStyles['is-marginless'], CVStyles['level-left'], CVStyles['is-size-5'])}>
                   {itemTitle}
                 </h5>
-                <span className={mergeClassNames(CVStyles['level-right'])}>{rightSide}</span>
+                <div className={mergeClassNames(CVStyles['level-right'], CVStyles['is-flex-direction-column'])}>
+                <span className={mergeClassNames(CVStyles['is-flex-direction-row'])}>{rightSide}</span>
+                </div>
               </div>
               <h6
                 className={mergeClassNames(CVStyles.subtitle, Styles.companyTitle, CVStyles['is-size-6'])}
@@ -45,7 +47,7 @@ export default function GenericList({
                   <a href={getFixedUrl(authorityWebSite)} target="_blank" rel="noreferrer">{authority}</a> : authority}
               </h6>
               {authorityMeta
-                ? <span className={mergeClassNames(Styles.companyMeta)}>{`(${authorityMeta})`}</span>
+                ? <span className={mergeClassNames(Styles.companyMeta, CVStyles['is-size-7'])}>{`${authorityMeta}`}</span>
                 : null}
               <div>
                 {descriptionTags && <Keywords tags={descriptionTags} tagClass="is-info"/>}
