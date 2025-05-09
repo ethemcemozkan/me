@@ -194,7 +194,7 @@ class App extends Component {
                   ]
                 },
                 {
-                  title: 'DevOps Engineer',
+                  title: 'DevOps Consultant',
                   company: 'Shipolog',
                   description: '<ul>' +
                       '<li>Implemented AWS based DTAP environments using <b>Terraform Cloud</b>.</li>' +
