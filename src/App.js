@@ -11,7 +11,7 @@ class App extends Component {
       <CemCV
         personalData={{
           name: 'Ethem Cem Özkan',
-          title: 'Freelance Senior DevOps Engineer',
+          title: 'Freelance Senior DevOps & Cloud Engineer | AWS | Azure | Kubernetes | Terraform | Ansible | Platform & Infra Expert',
           image: './ethemcemozkan.jpg',
           contacts: [
             {type: 'email', value: 'me@ethemcemozkan.com'},

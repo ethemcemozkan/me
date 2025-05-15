@@ -56,7 +56,7 @@ export default function Me({
                 </div>
                 <div className={CVStyles['has-text-centered']}>
                   <h1 className={mc(CVStyles.title, CVStyles['is-size-4'])}>{name}</h1>
-                  <h3 className={mc(CVStyles.subtitle, CVStyles['is-size-6'])}>{title}</h3>
+                  <h3 style={{ width: '300px' }} className={mc(CVStyles.subtitle, CVStyles['is-size-6'])}>{title}</h3>
                 </div>
               </div>
               <div className={CVStyles['level-right']}>

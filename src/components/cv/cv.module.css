@@ -3247,6 +3247,9 @@ a.tag:hover {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.25;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .subtitle strong {
