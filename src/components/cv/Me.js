@@ -54,9 +54,9 @@ export default function Me({
                     <img className={CVStyles['is-rounded']} src={image} alt="Profile"/>
                   </figure>
                 </div>
-                <div className={CVStyles['has-text-centered']}>
+                <div className={mc(CVStyles['has-text-centered'], CVStyles['is-full'])}>
                   <h1 className={mc(CVStyles.title, CVStyles['is-size-4'])}>{name}</h1>
-                  <h3 style={{ width: '300px' }} className={mc(CVStyles.subtitle, CVStyles['is-size-6'])}>{title}</h3>
+                  <h3 style={{ 'max-width': '300px' }} className={mc(CVStyles.subtitle, CVStyles['is-size-6'])}>{title}</h3>
                 </div>
               </div>
               <div className={CVStyles['level-right']}>
